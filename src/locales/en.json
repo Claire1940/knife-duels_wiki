@@ -10,14 +10,7 @@
       "twitterDescription": "Knife Duels Wiki with PvP guides, knife skins, codes, controls, and duel strategies for the Roblox knife PvP arena."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
