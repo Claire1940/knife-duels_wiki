@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Knife Duels Wiki - Codes, Skins & Strategies",
+      "description": "Knife Duels Wiki with PvP guides, knife skins, codes, controls, and duel strategies. Learn game modes, combat tips, updates, and the best ways to win every Roblox knife battle.",
+      "keywords": "Knife Duels, Roblox, codes, skins, PvP guide, knife combat",
+      "ogTitle": "Knife Duels Wiki - Codes, Skins & Strategies",
+      "ogDescription": "Knife Duels Wiki with PvP guides, knife skins, codes, controls, and duel strategies. Learn game modes, combat tips, updates, and the best ways to win every Roblox knife battle.",
+      "twitterTitle": "Knife Duels Wiki - Codes, Skins & Strategies",
+      "twitterDescription": "Knife Duels Wiki with PvP guides, knife skins, codes, controls, and duel strategies for the Roblox knife PvP arena."
     }
   },
   "nav": {
@@ -34,27 +34,28 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Fast-Paced Knife PvP Arena",
+    "title": "Knife Duels Wiki",
+    "description": "Knife Duels Wiki provides complete guides for Roblox knife combat, including skins, controls, duel strategies, game modes, and tips to become the strongest player.",
+    "keywords": "Knife Duels, Roblox, knife fighting, PvP, skins, duel guide",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "700K+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "3+",
+        "label": "Game Modes"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "860+",
+        "label": "Players Online"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "Weekly",
+        "label": "Updates"
       }
     }
   },
@@ -785,26 +786,24 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Master Knife Duels?",
+    "description": "Jump into the arena on Roblox for fast-paced 1v1, Free For All, and Team knife duels with exclusive skins and kill streaks!",
+    "joinCommunity": "Explore on Roblox",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Knife Duels Wiki",
+    "description": "Your complete resource hub for Knife Duels codes, skins, weapons, controls, duel strategies, and game mode guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "robloxGame": "Roblox Game",
+    "robloxDiscover": "Roblox Discover",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Knife Duels Wiki. Not affiliated with Roblox Corporation or the developers of Knife Duels.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
