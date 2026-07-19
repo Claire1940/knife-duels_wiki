@@ -6,6 +6,20 @@
         "file": "knife-duels-codes"
       }
     ],
+    "community": [
+      {
+        "slug": "knife-duels-discord",
+        "file": "knife-duels-discord"
+      },
+      {
+        "slug": "knife-duels-reddit",
+        "file": "knife-duels-reddit"
+      },
+      {
+        "slug": "knife-duels-trading-community",
+        "file": "knife-duels-trading-community"
+      }
+    ],
     "crosshair": [
       {
         "slug": "knife-duels-crosshair-id",
@@ -60,6 +74,10 @@
     ],
     "modes": [
       {
+        "slug": "knife-duels-1v1",
+        "file": "knife-duels-1v1"
+      },
+      {
         "slug": "knife-duels-gun-vs-knife-duels",
         "file": "knife-duels-gun-vs-knife-duels"
       },
@@ -71,6 +89,84 @@
         "slug": "knife-duels-sniper-duels",
         "file": "knife-duels-sniper-duels"
       }
+    ],
+    "updates": [
+      {
+        "slug": "knife-duels-2026",
+        "file": "knife-duels-2026"
+      },
+      {
+        "slug": "knife-duels-events",
+        "file": "knife-duels-events"
+      },
+      {
+        "slug": "knife-duels-new-knives",
+        "file": "knife-duels-new-knives"
+      },
+      {
+        "slug": "knife-duels-new-update",
+        "file": "knife-duels-new-update"
+      }
+    ],
+    "values": [
+      {
+        "slug": "knife-duels-item-values",
+        "file": "knife-duels-item-values"
+      },
+      {
+        "slug": "knife-duels-rare-items",
+        "file": "knife-duels-rare-items"
+      },
+      {
+        "slug": "knife-duels-trading-values",
+        "file": "knife-duels-trading-values"
+      },
+      {
+        "slug": "knife-duels-value-chart",
+        "file": "knife-duels-value-chart"
+      },
+      {
+        "slug": "knife-duels-value-list",
+        "file": "knife-duels-value-list"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "knife-duels-knife-prices",
+        "file": "knife-duels-knife-prices"
+      },
+      {
+        "slug": "knife-duels-knife-rarity",
+        "file": "knife-duels-knife-rarity"
+      },
+      {
+        "slug": "knife-duels-knife-shop",
+        "file": "knife-duels-knife-shop"
+      },
+      {
+        "slug": "knife-duels-knife-trading",
+        "file": "knife-duels-knife-trading"
+      },
+      {
+        "slug": "knife-duels-knife-value",
+        "file": "knife-duels-knife-value"
+      },
+      {
+        "slug": "knife-duels-knives",
+        "file": "knife-duels-knives"
+      },
+      {
+        "slug": "knife-duels-rare-knives",
+        "file": "knife-duels-rare-knives"
+      },
+      {
+        "slug": "knife-duels-weapon-values",
+        "file": "knife-duels-weapon-values"
+      },
+      {
+        "slug": "knife-duels-weapons",
+        "file": "knife-duels-weapons"
+      }
     ]
   },
   "en": {
@@ -78,6 +174,20 @@
       {
         "slug": "knife-duels-codes",
         "file": "knife-duels-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "knife-duels-discord",
+        "file": "knife-duels-discord"
+      },
+      {
+        "slug": "knife-duels-reddit",
+        "file": "knife-duels-reddit"
+      },
+      {
+        "slug": "knife-duels-trading-community",
+        "file": "knife-duels-trading-community"
       }
     ],
     "crosshair": [
@@ -236,74 +346,18 @@
         "file": "knife-duels-codes"
       }
     ],
-    "crosshair": [
+    "community": [
       {
-        "slug": "knife-duels-crosshair-id",
-        "file": "knife-duels-crosshair-id"
+        "slug": "knife-duels-discord",
+        "file": "knife-duels-discord"
       },
       {
-        "slug": "knife-duels-crosshair",
-        "file": "knife-duels-crosshair"
+        "slug": "knife-duels-reddit",
+        "file": "knife-duels-reddit"
       },
       {
-        "slug": "knife-duels-custom-crosshair",
-        "file": "knife-duels-custom-crosshair"
-      }
-    ],
-    "guide": [
-      {
-        "slug": "knife-duels-beginner-guide",
-        "file": "knife-duels-beginner-guide"
-      },
-      {
-        "slug": "knife-duels-controller-guide",
-        "file": "knife-duels-controller-guide"
-      },
-      {
-        "slug": "knife-duels-controls",
-        "file": "knife-duels-controls"
-      },
-      {
-        "slug": "knife-duels-gameplay",
-        "file": "knife-duels-gameplay"
-      },
-      {
-        "slug": "knife-duels-guide",
-        "file": "knife-duels-guide"
-      },
-      {
-        "slug": "knife-duels-how-to-play",
-        "file": "knife-duels-how-to-play"
-      },
-      {
-        "slug": "knife-duels-how-to-throw-knife",
-        "file": "knife-duels-how-to-throw-knife"
-      },
-      {
-        "slug": "knife-duels-pc-guide",
-        "file": "knife-duels-pc-guide"
-      },
-      {
-        "slug": "knife-duels-tips-and-tricks",
-        "file": "knife-duels-tips-and-tricks"
-      }
-    ],
-    "modes": [
-      {
-        "slug": "knife-duels-1v1",
-        "file": "knife-duels-1v1"
-      },
-      {
-        "slug": "knife-duels-knife-vs-gun-duels",
-        "file": "knife-duels-knife-vs-gun-duels"
-      }
-    ]
-  },
-  "pt": {
-    "codes": [
-      {
-        "slug": "knife-duels-codes",
-        "file": "knife-duels-codes"
+        "slug": "knife-duels-trading-community",
+        "file": "knife-duels-trading-community"
       }
     ],
     "crosshair": [
@@ -374,6 +428,254 @@
       {
         "slug": "knife-duels-sniper-duels",
         "file": "knife-duels-sniper-duels"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "knife-duels-2026",
+        "file": "knife-duels-2026"
+      },
+      {
+        "slug": "knife-duels-events",
+        "file": "knife-duels-events"
+      },
+      {
+        "slug": "knife-duels-new-knives",
+        "file": "knife-duels-new-knives"
+      },
+      {
+        "slug": "knife-duels-new-update",
+        "file": "knife-duels-new-update"
+      }
+    ],
+    "values": [
+      {
+        "slug": "knife-duels-item-values",
+        "file": "knife-duels-item-values"
+      },
+      {
+        "slug": "knife-duels-rare-items",
+        "file": "knife-duels-rare-items"
+      },
+      {
+        "slug": "knife-duels-trading-values",
+        "file": "knife-duels-trading-values"
+      },
+      {
+        "slug": "knife-duels-value-chart",
+        "file": "knife-duels-value-chart"
+      },
+      {
+        "slug": "knife-duels-value-list",
+        "file": "knife-duels-value-list"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "knife-duels-knife-prices",
+        "file": "knife-duels-knife-prices"
+      },
+      {
+        "slug": "knife-duels-knife-rarity",
+        "file": "knife-duels-knife-rarity"
+      },
+      {
+        "slug": "knife-duels-knife-shop",
+        "file": "knife-duels-knife-shop"
+      },
+      {
+        "slug": "knife-duels-knife-trading",
+        "file": "knife-duels-knife-trading"
+      },
+      {
+        "slug": "knife-duels-knife-value",
+        "file": "knife-duels-knife-value"
+      },
+      {
+        "slug": "knife-duels-knives",
+        "file": "knife-duels-knives"
+      },
+      {
+        "slug": "knife-duels-rare-knives",
+        "file": "knife-duels-rare-knives"
+      },
+      {
+        "slug": "knife-duels-weapon-values",
+        "file": "knife-duels-weapon-values"
+      },
+      {
+        "slug": "knife-duels-weapons",
+        "file": "knife-duels-weapons"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "knife-duels-codes",
+        "file": "knife-duels-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "knife-duels-discord",
+        "file": "knife-duels-discord"
+      },
+      {
+        "slug": "knife-duels-reddit",
+        "file": "knife-duels-reddit"
+      },
+      {
+        "slug": "knife-duels-trading-community",
+        "file": "knife-duels-trading-community"
+      }
+    ],
+    "crosshair": [
+      {
+        "slug": "knife-duels-crosshair-id",
+        "file": "knife-duels-crosshair-id"
+      },
+      {
+        "slug": "knife-duels-crosshair",
+        "file": "knife-duels-crosshair"
+      },
+      {
+        "slug": "knife-duels-custom-crosshair",
+        "file": "knife-duels-custom-crosshair"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "knife-duels-beginner-guide",
+        "file": "knife-duels-beginner-guide"
+      },
+      {
+        "slug": "knife-duels-controller-guide",
+        "file": "knife-duels-controller-guide"
+      },
+      {
+        "slug": "knife-duels-controls",
+        "file": "knife-duels-controls"
+      },
+      {
+        "slug": "knife-duels-gameplay",
+        "file": "knife-duels-gameplay"
+      },
+      {
+        "slug": "knife-duels-guide",
+        "file": "knife-duels-guide"
+      },
+      {
+        "slug": "knife-duels-how-to-play",
+        "file": "knife-duels-how-to-play"
+      },
+      {
+        "slug": "knife-duels-how-to-throw-knife",
+        "file": "knife-duels-how-to-throw-knife"
+      },
+      {
+        "slug": "knife-duels-pc-guide",
+        "file": "knife-duels-pc-guide"
+      },
+      {
+        "slug": "knife-duels-tips-and-tricks",
+        "file": "knife-duels-tips-and-tricks"
+      }
+    ],
+    "modes": [
+      {
+        "slug": "knife-duels-1v1",
+        "file": "knife-duels-1v1"
+      },
+      {
+        "slug": "knife-duels-gun-vs-knife-duels",
+        "file": "knife-duels-gun-vs-knife-duels"
+      },
+      {
+        "slug": "knife-duels-knife-vs-gun-duels",
+        "file": "knife-duels-knife-vs-gun-duels"
+      },
+      {
+        "slug": "knife-duels-sniper-duels",
+        "file": "knife-duels-sniper-duels"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "knife-duels-2026",
+        "file": "knife-duels-2026"
+      },
+      {
+        "slug": "knife-duels-events",
+        "file": "knife-duels-events"
+      },
+      {
+        "slug": "knife-duels-new-knives",
+        "file": "knife-duels-new-knives"
+      },
+      {
+        "slug": "knife-duels-new-update",
+        "file": "knife-duels-new-update"
+      }
+    ],
+    "values": [
+      {
+        "slug": "knife-duels-item-values",
+        "file": "knife-duels-item-values"
+      },
+      {
+        "slug": "knife-duels-rare-items",
+        "file": "knife-duels-rare-items"
+      },
+      {
+        "slug": "knife-duels-trading-values",
+        "file": "knife-duels-trading-values"
+      },
+      {
+        "slug": "knife-duels-value-chart",
+        "file": "knife-duels-value-chart"
+      },
+      {
+        "slug": "knife-duels-value-list",
+        "file": "knife-duels-value-list"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "knife-duels-knife-prices",
+        "file": "knife-duels-knife-prices"
+      },
+      {
+        "slug": "knife-duels-knife-rarity",
+        "file": "knife-duels-knife-rarity"
+      },
+      {
+        "slug": "knife-duels-knife-shop",
+        "file": "knife-duels-knife-shop"
+      },
+      {
+        "slug": "knife-duels-knife-trading",
+        "file": "knife-duels-knife-trading"
+      },
+      {
+        "slug": "knife-duels-knife-value",
+        "file": "knife-duels-knife-value"
+      },
+      {
+        "slug": "knife-duels-knives",
+        "file": "knife-duels-knives"
+      },
+      {
+        "slug": "knife-duels-rare-knives",
+        "file": "knife-duels-rare-knives"
+      },
+      {
+        "slug": "knife-duels-weapon-values",
+        "file": "knife-duels-weapon-values"
+      },
+      {
+        "slug": "knife-duels-weapons",
+        "file": "knife-duels-weapons"
       }
     ]
   }

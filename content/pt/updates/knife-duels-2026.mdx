@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Knife Duels 2026: Recursos de Script e Táticas de Combate",
+  description: "Descubra os recursos mais recentes do Knife Duels 2026, incluindo demonstrações de scripts, táticas de combate e estratégias de progressão para o jogo competitivo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Knife+Duels+2026",
+  date: "2026-07-20",
+  author: "Equipe da Wiki do Knife Duels"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Knife Duels 2026** introduz mecânicas avançadas de combate baseadas em física que exigem tempo preciso, espaçamento e configuração de movimento do personagem.
+- **Recursos de script**, como silent aim e ESP, alteram o equilíbrio competitivo, mas trazem riscos significativos de suspensão de conta.
+- **Espaçamento ideal** e o uso de táticas defensivas de isca (bait-and-switch) continuam sendo as formas mais confiáveis de vencer partidas de alto escalão.
+- **Calibração regular** da sensibilidade do mouse e das configurações de rede é fundamental para o registro preciso dos golpes de faca.
+- **Progressão ranqueada** exige vitórias consistentes contra oponentes cada vez mais habilidosos que exploram mecânicas de movimento avançadas.
+</Callout>
+
+<Section icon={Swords} title="Knife Duels 2026: Demonstração de Scripts e Principais Recursos">
+
+O cenário competitivo deste jogo de combate em arena passou por mudanças significativas. Os jogadores buscam constantemente maneiras de otimizar seu desempenho, levando ao surgimento de modificações de terceiros. Essas ferramentas modificam o comportamento do lado do cliente para automatizar ações e exibir informações ocultas, alterando a dinâmica das partidas de alto risco.
+
+Entender esses recursos é essencial para reconhecer comportamentos automatizados em oponentes e otimizar sua própria percepção. As principais modificações focam em assistência de mira, sobreposições visuais e manipulação da física de movimento.
+
+**Destaques do Vídeo:**
+- **Demonstração de Silent Aim**: Mostra o redirecionamento instantâneo da mira quando um oponente aparece.
+- **Sobreposição ESP**: Exibe o posicionamento dos inimigos através de estruturas sólidas em tempo real.
+- **Modificações de Movimento**: Demonstra mudanças de velocidade e ajustes automáticos de posicionamento.
+
+<YouTubeEmbed videoId="Z-P7nQBlIrA" title="*NOVO* Script Knife Duels - Silent Aim, ESP, Movimentação e Mais" />
+
+As mecânicas por trás desses recursos baseiam-se na leitura da memória do jogo e na injeção de comandos. O silent aim funciona interceptando o pacote de ataque e alterando o vetor do alvo para corresponder à hitbox do oponente, ignorando a necessidade de alinhar manualmente a mira. As verificações de parede (wall checks) garantem que o script não tente golpear através de paredes sólidas, evitando a detecção óbvia por sistemas de espectadores.
+
+| Recurso | Descrição | Risco de Detecção |
+| :--- | :--- | :--- |
+| **Silent Aim** | Redireciona ataques para as hitboxes dos alvos automaticamente | Alto |
+| **ESP** | Exibe contornos dos jogadores e vetores de distância | Baixo |
+| **Wall Check** | Impede golpes através de obstáculos sólidos | Médio |
+| **Movimentação** | Melhora a velocidade e as mecânicas de deslize | Alto |
+
+<Callout type="warning" title="Aviso de Segurança da Conta">
+O uso de scripts de terceiros viola os termos de serviço. Os sistemas de detecção automatizada são atualizados frequentemente para identificar silent aim e modificações de movimento, o que pode levar ao banimento permanente da conta.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Táticas Principais de Combate em Duelo">
+
+Ter sucesso em arenas competitivas exige o domínio do controle de distância, tempo de golpe e propriedades das armas. Ao contrário dos scripts automatizados, os jogadores humanos devem confiar na antecipação e na memória muscular para executar golpes precisos. Cada arquétipo de faca possui dados de quadros (frame data) únicos, o que significa que algumas armas se recuperam mais rápido de golpes perdidos do que outras.
+
+Para construir uma defesa confiável, você deve entender como atrair o ataque de um oponente. Ao entrar no alcance de ameaça deles e recuar rapidamente, você força um erro, deixando-os vulneráveis durante os quadros de recuperação.
+
+<CardGrid cols={3}>
+  <Card title="Defesa Passiva">
+    - **Manter distância segura**
+    - Focar em contra-ataques
+    - Baixo risco de erro
+  </Card>
+  <Card title="Avanço Agressivo">
+    - **Táticas de alta pressão**
+    - Forçar erros com movimentação
+    - Alto risco de contra-golpes
+  </Card>
+  <Card title="Isca e Contra-ataque">
+    - **Manipular o espaçamento**
+    - Punir quadros de recuperação
+    - Requisito de habilidade moderado
+  </Card>
+</CardGrid>
+
+Escolher a arma certa é a base da sua abordagem tática. Facas mais rápidas permitem uma recuperação ágil, enquanto lâminas mais longas oferecem uma margem de segurança ao manter distância dos oponentes.
+
+| Tipo de Faca | Alcance | Velocidade de Ataque | Estilo de Jogo Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Adaga Padrão** | Médio | Rápido | Jogo agressivo equilibrado |
+| **Karambit** | Curto | Muito Rápido | Flanqueamento em combate próximo |
+| **Faca Bowie** | Longo | Lento | Espaçamento defensivo e contra-ataques |
+| **Faca Butterfly** | Médio | Rápido | Golpes técnicos e alta mobilidade |
+
+<Callout type="tip" title="Dica Pro de Espaçamento">
+Mantenha sua mira na altura do peito ao usar facas mais longas. Isso garante que, mesmo se o oponente se agachar, o arco do seu golpe ainda atingirá a hitbox dele.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Calibração e Configuração Passo a Passo">
+
+Alcançar o desempenho ideal exige o ajuste tanto das configurações de hardware quanto dos parâmetros do jogo. Um alto atraso de entrada (input lag) ou taxas de quadros instáveis podem dificultar a reação a alvos que se movem rapidamente. A calibração adequada garante que seus movimentos físicos sejam traduzidos diretamente para a tela sem atraso.
+
+Siga estes passos para otimizar sua configuração para o jogo competitivo:
+
+<Steps>
+  <Step num="1" title="Otimize o Input Lag">
+    Ative o agendamento de GPU acelerado por hardware nas configurações do seu sistema operacional. Defina a taxa de amostragem (polling rate) do seu mouse para 1000Hz ou superior para minimizar a latência de entrada.
+  </Step>
+  <Step num="2" title="Ajuste a Sensibilidade">
+    Configure seu DPI para um nível que permita micro-ajustes precisos. Uma sensibilidade mais baixa geralmente melhora a precisão do rastreamento durante duelos de curta distância.
+  </Step>
+  <Step num="3" title="Configure o Campo de Visão">
+    Defina o campo de visão (FOV) do jogo para um valor que equilibre a visão periférica com o tamanho do alvo. Valores extremamente altos podem dificultar o acerto em oponentes distantes.
+  </Step>
+  <Step num="4" title="Teste em Partida Privada">
+    Entre em um servidor vazio para praticar técnicas de movimento e verificar se sua taxa de quadros permanece estável durante giros e ataques rápidos.
+  </Step>
+</Steps>
+
+As configurações de rede também desempenham um papel vital. A alta latência pode causar problemas de registro de acerto, fazendo parecer que sua faca passa pelo oponente sem causar dano.
+
+| Configuração | Valor | Impacto |
+| :--- | :--- | :--- |
+| **Sensibilidade do Mouse** | 800 DPI / 1.2 No jogo | Promove rastreamento preciso e micro-ajustes |
+| **Campo de Visão (FOV)** | 95 Graus | Maximiza a visão periférica sem distorcer a distância |
+| **Limite de Taxa de Quadros** | Ilimitado / Hz do Monitor | Reduz a latência de entrada para reações mais rápidas |
+| **Interpolação de Rede** | Mínima | Garante o posicionamento do oponente em tempo real na tela |
+
+<Callout type="info" title="Nota de Configuração">
+Sempre priorize taxas de quadros estáveis em vez de qualidade visual. Diminuir a resolução das sombras e os efeitos de partículas pode proporcionar um aumento significativo na consistência dos quadros.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Marcos de Progressão Competitiva">
+
+Subir na escada ranqueada exige dedicação, adaptabilidade e uma compreensão profunda do fluxo da partida. Os jogadores devem progredir através de vários níveis derrotando oponentes de níveis de habilidade semelhantes. Conforme você atinge ranques mais altos, os oponentes explorarão mecânicas de movimento avançadas e a geometria do mapa.
+
+Acompanhar seu progresso ajuda a identificar áreas que precisam de melhoria. Concentre-se em dominar habilidades mecânicas específicas antes de tentar subir para os ranques mais altos.
+
+<Checklist
+  id="progression-goals"
+  title="Marcos Essenciais:"
+  items={[
+    "Desbloquear todas as facas padrão para entender seu alcance",
+    "Alcançar o ranque Diamante para enfrentar jogadores experientes",
+    "Dominar as mecânicas de slide-jump para um posicionamento mais rápido",
+    "Manter a conta em situação regular evitando softwares de terceiros"
+  ]}
+/>
+
+O sistema de classificação foi projetado para recompensar o desempenho consistente. Vencer partidas consecutivas aumenta sua classificação rapidamente, enquanto perder partidas contra jogadores de ranque inferior causará uma queda acentuada nos pontos.
+
+| Nível | Pontos | Dificuldade |
+| :--- | :--- | :--- |
+| **Bronze a Prata** | 0 - 1500 | Fácil |
+| **Ouro a Platina** | 1501 - 3000 | Moderado |
+| **Diamante a Mestre** | 3001 - 5000 | Difícil |
+| **Grão-mestre** | 5001+ | Muito Difícil |
+
+<Callout type="success" title="Recompensa de Marco de Ranque">
+Alcançar o ranque Diamante desbloqueia recompensas cosméticas exclusivas e concede acesso a filas de matchmaking de alto nível, onde a integridade competitiva é priorizada.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+Entender as regras, mecânicas e aspectos técnicos do jogo ajuda você a evitar armadilhas comuns e melhorar seu desempenho geral.
+
+<FAQ items={[
+  {
+    question: "Como o meta no Knife Duels 2026 difere das temporadas anteriores?",
+    answer: "A temporada atual enfatiza a velocidade de movimento e a gestão dos quadros de recuperação. Armas pesadas com velocidades de golpe lentas são menos dominantes em comparação com facas mais rápidas e de alta mobilidade, como a Karambit."
+  },
+  {
+    question: "Scripts de terceiros são permitidos em torneios competitivos?",
+    answer: "Não. Todos os scripts de terceiros, incluindo silent aim, ESP e macros de movimento automatizados, são estritamente proibidos em torneios oficiais e no matchmaking ranqueado."
+  },
+  {
+    question: "Qual é a melhor maneira de combater usuários de silent aim?",
+    answer: "Combater a mira automatizada exige o uso de cobertura e movimentação imprevisível. Como os scripts dependem de verificações claras de linha de visão, quebrar a visibilidade e atacar por trás pode interromper seus sistemas de mira."
+  },
+  {
+    question: "Como o ping afeta o registro de acertos da faca?",
+    answer: "Um ping alto causa um atraso entre o seu golpe local e a validação do servidor. Isso pode resultar em acertos não registrados, onde você visualmente atinge o alvo, mas o servidor registra que o oponente já estava fora de alcance."
+  }
+]} />
+
+<Callout type="info" title="Recursos da Comunidade">
+Para atualizações oficiais, mudanças de equilíbrio e cronogramas de torneios, verifique regularmente os fóruns oficiais dos desenvolvedores e as notas de atualização da comunidade.
+</Callout>
+
+</Section>

@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Knife Duels 2026: Características de Scripts y Tácticas de Combate",
+  description: "Descubre las últimas características de Knife Duels 2026, incluyendo demostraciones de scripts, tácticas de combate y estrategias de progresión para el juego competitivo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Knife+Duels+2026",
+  date: "2026-07-20",
+  author: "Equipo de la Wiki de Knife Duels"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Knife duels 2026** introduce mecánicas de combate avanzadas basadas en la física que requieren una sincronización precisa, control del espacio y configuración del movimiento del personaje.
+- **Las funciones de scripting** como el silent aim y el ESP alteran el equilibrio competitivo, pero conllevan riesgos significativos de suspensión de la cuenta.
+- **El espaciado óptimo** y el uso de tácticas defensivas de señuelo y contraataque siguen siendo las formas más fiables de ganar partidas de alto rango.
+- **La calibración regular** de la sensibilidad del ratón y los ajustes de red es fundamental para un registro preciso de los impactos de los cuchillos.
+- **La progresión en el ranking** requiere victorias constantes contra oponentes cada vez más hábiles que explotan mecánicas de movimiento avanzadas.
+</Callout>
+
+<Section icon={Swords} title="Knife Duels 2026: Demostración de Scripts y Funciones Clave">
+
+La escena competitiva de este juego de combate en arena ha experimentado cambios significativos. Los jugadores buscan constantemente formas de optimizar su rendimiento, lo que ha llevado al auge de las modificaciones de terceros. Estas herramientas modifican el comportamiento del lado del cliente para automatizar acciones y mostrar información oculta, alterando la dinámica de las partidas de alto nivel.
+
+Comprender estas características es esencial para reconocer el comportamiento automatizado en los oponentes y optimizar tu propia percepción. Las modificaciones principales se centran en la asistencia de apuntado, las superposiciones visuales y la manipulación de la física del movimiento.
+
+**Puntos destacados del video:**
+- **Demostración de Silent Aim**: Muestra la redirección instantánea del objetivo cuando un oponente asoma.
+- **Superposición ESP**: Muestra el posicionamiento del enemigo a través de estructuras sólidas en tiempo real.
+- **Modificaciones de movimiento**: Exhibe cambios de velocidad y ajustes de posicionamiento automatizados.
+
+<YouTubeEmbed videoId="Z-P7nQBlIrA" title="*NUEVO* Script de Knife Duels - Silent Aim, ESP, Movimiento y más" />
+
+La mecánica detrás de estas funciones se basa en la lectura de la memoria del juego y la inyección de entradas. El silent aim funciona interceptando el paquete de ataque y cambiando el vector del objetivo para que coincida con la hitbox del oponente, evitando la necesidad de alinear manualmente la retícula. Las verificaciones de paredes (wall checks) aseguran que el script no intente golpear a través de muros sólidos, evitando una detección obvia por parte de los sistemas de espectadores.
+
+| Característica | Descripción | Riesgo de Detección |
+| :--- | :--- | :--- |
+| **Silent Aim** | Redirige los ataques a las hitboxes de los objetivos automáticamente | Alto |
+| **ESP** | Muestra los contornos de los jugadores y vectores de distancia | Bajo |
+| **Wall Check** | Evita impactos a través de obstáculos sólidos | Medio |
+| **Movimiento** | Mejora la velocidad y las mecánicas de deslizamiento | Alto |
+
+<Callout type="warning" title="Advertencia de Seguridad de la Cuenta">
+El uso de scripts de terceros viola los términos de servicio. Los sistemas de detección automatizados se actualizan con frecuencia para identificar el silent aim y las modificaciones de movimiento, lo que puede llevar a prohibiciones permanentes de la cuenta.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tácticas de Combate Principales para Duelos">
+
+Tener éxito en las arenas competitivas requiere dominar el control de la distancia, el tiempo de ataque y las propiedades de las armas. A diferencia de los scripts automatizados, los jugadores humanos deben confiar en la anticipación y la memoria muscular para ejecutar ataques precisos. Cada arquetipo de cuchillo tiene datos de frames únicos, lo que significa que algunas armas se recuperan más rápido de los ataques fallidos que otras.
+
+Para construir una defensa confiable, debes entender cómo provocar el ataque de un oponente. Al entrar en su rango de amenaza y retroceder rápidamente, fuerzas un ataque fallido, dejándolos vulnerables durante sus frames de recuperación.
+
+<CardGrid cols={3}>
+  <Card title="Defensa Pasiva">
+    - **Mantener distancia segura**
+    - Enfocarse en el contraataque
+    - Bajo riesgo de error
+  </Card>
+  <Card title="Ataque Agresivo">
+    - **Tácticas de alta presión**
+    - Forzar errores con el movimiento
+    - Alto riesgo de recibir contraataques
+  </Card>
+  <Card title="Provocación y Contraataque">
+    - **Manipular el espaciado**
+    - Castigar los frames de recuperación
+    - Requisito de habilidad moderado
+  </Card>
+</CardGrid>
+
+Elegir el arma adecuada es la base de tu enfoque táctico. Los cuchillos más rápidos permiten una recuperación rápida, mientras que las hojas más largas proporcionan un margen de seguridad al mantener la distancia con los oponentes.
+
+| Tipo de Cuchillo | Alcance | Velocidad de Ataque | Estilo de Juego Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Daga Estándar** | Medio | Rápida | Juego agresivo equilibrado |
+| **Karambit** | Corto | Muy Rápida | Flanqueo a corta distancia |
+| **Cuchillo Bowie** | Largo | Lenta | Espaciado defensivo y contraataques |
+| **Cuchillo Mariposa** | Medio | Rápida | Puñaladas con truco y alta movilidad |
+
+<Callout type="tip" title="Consejo Pro de Espaciado">
+Mantén tu retícula a la altura del pecho cuando uses cuchillos más largos. Esto asegura que incluso si el oponente se agacha, el arco de tu ataque seguirá conectando con su hitbox.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Calibración y Configuración Paso a Paso">
+
+Lograr un rendimiento óptimo requiere ajustar tanto la configuración del hardware como los parámetros internos del juego. Un alto retraso de entrada (input lag) o una tasa de fotogramas inestable pueden dificultar la reacción ante objetivos que se mueven rápido. Una calibración adecuada asegura que tus movimientos físicos se traduzcan directamente a la pantalla sin demora.
+
+Sigue estos pasos para optimizar tu configuración para el juego competitivo:
+
+<Steps>
+  <Step num="1" title="Optimizar el Retraso de Entrada">
+    Habilita la programación de GPU acelerada por hardware en los ajustes de tu sistema operativo. Configura la tasa de sondeo (polling rate) de tu ratón a 1000Hz o más para minimizar la latencia de entrada.
+  </Step>
+  <Step num="2" title="Ajustar la Sensibilidad">
+    Configura tu DPI a un nivel que permita microajustes precisos. Una sensibilidad más baja generalmente mejora la precisión del seguimiento durante los duelos a corta distancia.
+  </Step>
+  <Step num="3" title="Configurar el Campo de Visión (FOV)">
+    Establece el campo de visión del juego en un valor que equilibre la visión periférica con el tamaño del objetivo. Valores extremadamente altos pueden hacer que los oponentes distantes sean más difíciles de golpear.
+  </Step>
+  <Step num="4" title="Probar en Partida Privada">
+    Únete a un servidor vacío para practicar técnicas de movimiento y verificar que tu tasa de fotogramas se mantenga estable durante giros y ataques rápidos.
+  </Step>
+</Steps>
+
+Los ajustes de red también juegan un papel vital. La alta latencia puede causar problemas de registro de impactos, haciendo que parezca que tu cuchillo atraviesa al oponente sin infligir daño.
+
+| Ajuste | Valor | Impacto |
+| :--- | :--- | :--- |
+| **Sensibilidad del Ratón** | 800 DPI / 1.2 en el juego | Promueve un seguimiento preciso y microajustes |
+| **Campo de Visión (FOV)** | 95 Grados | Maximiza la visión periférica sin distorsionar la distancia |
+| **Límite de FPS** | Sin límite / Hz del monitor | Reduce la latencia de entrada para tiempos de reacción más rápidos |
+| **Interpolación de Red** | Mínima | Asegura el posicionamiento del oponente en tiempo real en pantalla |
+
+<Callout type="info" title="Nota de Configuración">
+Prioriza siempre una tasa de fotogramas estable sobre la calidad visual. Bajar la resolución de las sombras y los efectos de partículas puede proporcionar un impulso significativo a la consistencia de los fotogramas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos de Progresión Competitiva">
+
+Subir en la escala competitiva requiere dedicación, adaptabilidad y una comprensión profunda del flujo de la partida. Los jugadores deben progresar a través de varios niveles derrotando a oponentes de niveles de habilidad similares. A medida que alcances rangos más altos, los oponentes explotarán mecánicas de movimiento avanzadas y la geometría del mapa.
+
+Seguir tu progreso ayuda a identificar las áreas que requieren mejora. Enfócate en dominar habilidades mecánicas específicas antes de intentar subir a los rangos más altos.
+
+<Checklist
+  id="progression-goals"
+  title="Hitos Esenciales:"
+  items={[
+    "Desbloquear todos los cuchillos estándar para entender su alcance",
+    "Alcanzar el rango Diamante para enfrentar a jugadores experimentados",
+    "Dominar las mecánicas de salto con deslizamiento para un posicionamiento más rápido",
+    "Mantener la cuenta en buen estado evitando software de terceros"
+  ]}
+/>
+
+El sistema de clasificación está diseñado para recompensar el rendimiento constante. Ganar partidas consecutivas aumenta tu calificación rápidamente, mientras que perder partidas contra jugadores de menor rango causará una caída pronunciada de puntos.
+
+| Rango | Puntos | Dificultad |
+| :--- | :--- | :--- |
+| **Bronce a Plata** | 0 - 1500 | Fácil |
+| **Oro a Platino** | 1501 - 3000 | Moderada |
+| **Diamante a Maestro** | 3001 - 5000 | Difícil |
+| **Gran Maestro** | 5001+ | Muy Difícil |
+
+<Callout type="success" title="Recompensa por Hito de Rango">
+Alcanzar el rango Diamante desbloquea recompensas cosméticas exclusivas y otorga acceso a colas de emparejamiento de alto nivel donde se prioriza la integridad competitiva.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+Comprender las reglas, las mecánicas y los aspectos técnicos del juego te ayuda a evitar errores comunes y mejorar tu rendimiento general.
+
+<FAQ items={[
+  {
+    question: "¿En qué se diferencia el meta de Knife Duels 2026 de las temporadas anteriores?",
+    answer: "La temporada actual enfatiza la velocidad de movimiento y la gestión de los frames de recuperación. Las armas pesadas con velocidades de ataque lentas son menos dominantes en comparación con los cuchillos más rápidos y de alta movilidad como el Karambit."
+  },
+  {
+    question: "¿Están permitidos los scripts de terceros en torneos competitivos?",
+    answer: "No. Todos los scripts de terceros, incluidos el silent aim, el ESP y las macros de movimiento automatizadas, están estrictamente prohibidos en torneos oficiales y en el emparejamiento clasificado."
+  },
+  {
+    question: "¿Cuál es la mejor manera de contrarrestar a los usuarios de silent aim?",
+    answer: "Contrarrestar el apuntado automático requiere el uso de coberturas y movimientos impredecibles. Dado que los scripts dependen de verificaciones de línea de visión clara, romper la visibilidad y atacar desde atrás puede interrumpir sus sistemas de apuntado."
+  },
+  {
+    question: "¿Cómo afecta el ping al registro de impactos del cuchillo?",
+    answer: "Un ping alto causa un retraso entre tu ataque local y la validación del servidor. Esto puede resultar en impactos no registrados, donde visualmente conectas con un objetivo pero el servidor registra que el oponente ya está fuera de alcance."
+  }
+]} />
+
+<Callout type="info" title="Recursos de la Comunidad">
+Para actualizaciones oficiales, cambios de equilibrio y horarios de torneos, consulta regularmente los foros oficiales de los desarrolladores y las notas del parche de la comunidad.
+</Callout>
+
+</Section>
