@@ -117,33 +117,33 @@
       "intro": "Knife Duels Codes",
       "items": [
         {
-          "code": "Finde Einlösecodes für kostenlose Belohnungen wie Messer, Skins, Münzen und Boosts. Sieh dir unten die aktiven Codes an und erfahre, wie du Boni in Knife Duels einlöst.",
-          "reward": "RELEASE",
-          "status": "Kostenlose Startmünzen und Anfängerbelohnungen",
-          "description": "Aktiv"
+          "code": "RELEASE",
+          "reward": "Free starter coins and beginner rewards",
+          "status": "Active",
+          "description": "A launch-style code that gives new players early progression resources."
         },
         {
-          "code": "Ein Code zum Start, der neuen Spielern Ressourcen für den frühen Fortschritt gibt.",
-          "reward": "KNIFE",
-          "status": "Kostenloser Messer-Skin",
-          "description": "Aktiv"
+          "code": "KNIFE",
+          "reward": "Free knife skin",
+          "status": "Active",
+          "description": "Unlocks a cosmetic knife reward for customizing your weapon appearance."
         },
         {
-          "code": "DUELLE",
+          "code": "DUELS",
           "reward": "Münzen- und XP-Boost",
-          "status": "Aktiv",
+          "status": "Active",
           "description": "Bietet Ressourcen, die Spielern helfen, in Matches schneller voranzukommen."
         },
         {
           "code": "UPDATE",
           "reward": "Kostenlose Münzen und temporärer Boost",
-          "status": "Aktiv",
+          "status": "Active",
           "description": "Ein Belohnungscode, der mit großen Spiel-Updates und neuen Inhaltsveröffentlichungen verknüpft ist."
         },
         {
           "code": "FREESKIN",
           "reward": "Zufälliger Messer-Skin",
-          "status": "Abgelaufen",
+          "status": "Expired",
           "description": "Bot zuvor eine kosmetische Belohnung zur Waffenanpassung."
         }
       ]

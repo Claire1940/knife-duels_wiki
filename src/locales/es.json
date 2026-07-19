@@ -117,33 +117,33 @@
       "intro": "Códigos de Knife Duels",
       "items": [
         {
-          "code": "Encuentra códigos de canje para recompensas gratuitas que incluyen cuchillos, skins, monedas y potenciadores. Revisa los códigos activos a continuación y aprende cómo reclamar bonos dentro de Knife Duels.",
-          "reward": "RELEASE",
-          "status": "Monedas iniciales gratuitas y recompensas para principiantes",
-          "description": "Activo"
+          "code": "RELEASE",
+          "reward": "Free starter coins and beginner rewards",
+          "status": "Active",
+          "description": "A launch-style code that gives new players early progression resources."
         },
         {
-          "code": "Un código de lanzamiento que otorga a los nuevos jugadores recursos para su progresión inicial.",
-          "reward": "KNIFE",
-          "status": "Skin de cuchillo gratis",
-          "description": "Activo"
+          "code": "KNIFE",
+          "reward": "Free knife skin",
+          "status": "Active",
+          "description": "Unlocks a cosmetic knife reward for customizing your weapon appearance."
         },
         {
           "code": "DUELS",
           "reward": "Potenciador de monedas y XP",
-          "status": "Activo",
+          "status": "Active",
           "description": "Proporciona recursos que ayudan a los jugadores a progresar más rápido en las partidas."
         },
         {
           "code": "UPDATE",
           "reward": "Monedas gratis y potenciador temporal",
-          "status": "Activo",
+          "status": "Active",
           "description": "Un código de recompensa relacionado con las principales actualizaciones del juego y lanzamientos de nuevo contenido."
         },
         {
           "code": "FREESKIN",
           "reward": "Skin de cuchillo aleatoria",
-          "status": "Expirado",
+          "status": "Expired",
           "description": "Anteriormente otorgaba una recompensa cosmética de personalización de armas."
         }
       ]

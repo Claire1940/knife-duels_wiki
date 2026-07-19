@@ -117,33 +117,33 @@
       "intro": "RELEASE",
       "items": [
         {
-          "code": "Moedas iniciais gratuitas e recompensas para iniciantes",
-          "reward": "Ativo",
-          "status": "Um código de lançamento que dá aos novos jogadores recursos para progressão inicial.",
-          "description": "KNIFE"
+          "code": "RELEASE",
+          "reward": "Free starter coins and beginner rewards",
+          "status": "Active",
+          "description": "A launch-style code that gives new players early progression resources."
         },
         {
-          "code": "Skin de faca gratuita",
-          "reward": "Ativo",
-          "status": "Desbloqueia uma recompensa cosmética de faca para personalizar a aparência da sua arma.",
-          "description": "Desbloqueie uma recompensa de faca cosmética para personalizar a aparência da sua arma."
+          "code": "KNIFE",
+          "reward": "Free knife skin",
+          "status": "Active",
+          "description": "Unlocks a cosmetic knife reward for customizing your weapon appearance."
         },
         {
           "code": "DUELS",
           "reward": "Boost de moedas e XP",
-          "status": "Ativo",
+          "status": "Active",
           "description": "Fornece recursos que ajudam os jogadores a progredir mais rápido nas partidas."
         },
         {
           "code": "UPDATE",
           "reward": "Moedas grátis e boost temporário",
-          "status": "Ativo",
+          "status": "Active",
           "description": "Um código de recompensa associado a grandes atualizações do jogo e lançamentos de novos conteúdos."
         },
         {
           "code": "FREESKIN",
           "reward": "Skin de faca aleatória",
-          "status": "Expirado",
+          "status": "Expired",
           "description": "Anteriormente fornecia uma recompensa cosmética de personalização de arma."
         }
       ]
