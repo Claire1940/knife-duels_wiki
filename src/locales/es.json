@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Knife Duels - Códigos, Skins y Estrategias",
+      "description": "Wiki de Knife Duels con guías PvP, skins de cuchillos, códigos, controles y estrategias de duelo. Aprende modos de juego, consejos de combate, actualizaciones y las mejores formas de ganar cada batalla de cuchillos en Roblox.",
+      "keywords": "Knife Duels, Roblox, códigos, skins, guía PvP, combate de cuchillos",
+      "ogTitle": "Wiki de Knife Duels - Códigos, Skins y Estrategias",
+      "ogDescription": "Wiki de Knife Duels con guías PvP, skins de cuchillos, códigos, controles y estrategias de duelo. Aprende modos de juego, consejos de combate, actualizaciones y las mejores formas de ganar cada batalla de cuchillos en Roblox.",
+      "twitterTitle": "Wiki de Knife Duels - Códigos, Skins y Estrategias",
+      "twitterDescription": "Wiki de Knife Duels con guías PvP, skins de cuchillos, códigos, controles y estrategias de duelo para la arena PvP de cuchillos en Roblox."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "guide": "Guía",
@@ -7,5 +18,572 @@
     "crosshair": "Mira",
     "modes": "Modos",
     "updates": "Actualizaciones"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Próximamente más artículos"
+  },
+  "hero": {
+    "badge": "Arena PvP de cuchillos de ritmo rápido",
+    "title": "Wiki de Knife Duels",
+    "description": "La Wiki de Knife Duels ofrece guías completas para el combate de cuchillos en Roblox, incluyendo skins, controles, estrategias de duelo, modos de juego y consejos para convertirte en el jugador más fuerte.",
+    "keywords": "Knife Duels, Roblox, combate de cuchillos, PvP, skins, guía de duelo",
+    "getFreeCodesCTA": "Obtén códigos gratis",
+    "playOnRobloxCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "700K+",
+        "label": "Visitas totales"
+      },
+      "stat2": {
+        "value": "3+",
+        "label": "Modos de juego"
+      },
+      "stat3": {
+        "value": "860+",
+        "label": "Jugadores en línea"
+      },
+      "stat4": {
+        "value": "Semanal",
+        "label": "---"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Actualizaciones",
+    "description": "Jugabilidad de Knife Duels"
+  },
+  "tools": {
+    "title": "Entra en arenas de PvP de cuchillos en Roblox de ritmo rápido, domina los duelos a corta distancia, colecciona cuchillos y skins, y sube en la tabla de clasificación competitiva.",
+    "titleHighlight": "Knife Duels",
+    "subtitle": "Recursos",
+    "cards": [
+      {
+        "icon": "Todo lo que necesitas para dominar Knife Duels — códigos, armas, controles, estrategias de duelo y actualizaciones de la comunidad",
+        "title": "Sparkles",
+        "description": "Códigos de Knife Duels"
+      },
+      {
+        "icon": "Códigos de canje activos y reclamos de recompensas gratuitas",
+        "title": "BookOpen",
+        "description": "Guía para principiantes de Knife Duels"
+      },
+      {
+        "icon": "Primeros pasos, controles y conceptos básicos para los primeros duelos",
+        "title": "Hammer",
+        "description": "Tier List de armas de Knife Duels"
+      },
+      {
+        "icon": "Compara tipos de cuchillos por velocidad, alcance y potencia",
+        "title": "Gamepad2",
+        "description": "Guía de jugabilidad de Knife Duels"
+      },
+      {
+        "icon": "Modos de juego, reglas de partidas y mecánicas de combate",
+        "title": "Keyboard",
+        "description": "Guía de controles de Knife Duels"
+      },
+      {
+        "icon": "Controles de PC y móviles para movimiento y ataques",
+        "title": "Clock",
+        "description": "Historial de actualizaciones de Knife Duels"
+      },
+      {
+        "icon": "Lanzamientos de contenido, cambios de equilibrio y parches",
+        "title": "TrendingUp",
+        "description": "Trucos y consejos de Knife Duels"
+      },
+      {
+        "icon": "Consejos de combate avanzado y estrategias para ganar",
+        "title": "Users",
+        "description": "Enlaces de la comunidad de Knife Duels"
+      }
+    ]
+  },
+  "modules": {
+    "knifeDuelsCodes": {
+      "title": "Canales oficiales, videos y discusiones de jugadores",
+      "intro": "Códigos de Knife Duels",
+      "items": [
+        {
+          "code": "Encuentra códigos de canje para recompensas gratuitas que incluyen cuchillos, skins, monedas y potenciadores. Revisa los códigos activos a continuación y aprende cómo reclamar bonos dentro de Knife Duels.",
+          "reward": "RELEASE",
+          "status": "Monedas iniciales gratuitas y recompensas para principiantes",
+          "description": "Activo"
+        },
+        {
+          "code": "Un código de lanzamiento que otorga a los nuevos jugadores recursos para su progresión inicial.",
+          "reward": "KNIFE",
+          "status": "Skin de cuchillo gratis",
+          "description": "Activo"
+        },
+        {
+          "code": "DUELS",
+          "reward": "Potenciador de monedas y XP",
+          "status": "Activo",
+          "description": "Proporciona recursos que ayudan a los jugadores a progresar más rápido en las partidas."
+        },
+        {
+          "code": "UPDATE",
+          "reward": "Monedas gratis y potenciador temporal",
+          "status": "Activo",
+          "description": "Un código de recompensa relacionado con las principales actualizaciones del juego y lanzamientos de nuevo contenido."
+        },
+        {
+          "code": "FREESKIN",
+          "reward": "Skin de cuchillo aleatoria",
+          "status": "Expirado",
+          "description": "Anteriormente otorgaba una recompensa cosmética de personalización de armas."
+        }
+      ]
+    },
+    "knifeDuelsBeginnerGuide": {
+      "title": "Guía para principiantes de Knife Duels",
+      "intro": "Los nuevos jugadores pueden seguir esta guía para entender los conceptos básicos de Knife Duels. Desde unirse a partidas hasta mejorar la sincronización y el movimiento, estos pasos cubren las habilidades más importantes para principiantes.",
+      "steps": [
+        {
+          "title": "Únete a tu primera partida",
+          "description": "Entra a un lobby de 1v1 o Todos contra todos y aprende la distribución de la arena antes de concentrarte en ganar."
+        },
+        {
+          "title": "Aprende los ataques básicos con cuchillo",
+          "description": "Usa tu ataque principal para practicar el timing de los ataques, el distanciamiento y cómo asestar golpes de forma segura."
+        },
+        {
+          "title": "Domina el movimiento de esquivar",
+          "description": "Muévete hacia los lados, salta y reposiciónate con frecuencia para evitar ataques enemigos predecibles."
+        },
+        {
+          "title": "Practica bloqueos y contraataques",
+          "description": "Usa la sincronización defensiva para bloquear ataques y crear oportunidades de contraataque."
+        },
+        {
+          "title": "Desbloquea mejores cuchillos",
+          "description": "Completa partidas, recoge recompensas y desbloquea nuevos cuchillos o skins para mejorar tu colección."
+        }
+      ],
+      "quickTips": [
+        "Mantente en movimiento: quedarte quieto te convierte en un blanco fácil en cada duelo.",
+        "Aprende los rangos de ataque para poder golpear primero sin exponerte demasiado.",
+        "Varía tus patrones de movimiento para desconcertar a tus oponentes.",
+        "Gasta tus recompensas en cuchillos que se adapten a tu estilo de combate preferido."
+      ]
+    },
+    "knifeDuelsWeaponsTierList": {
+      "title": "Lista de niveles de armas de Knife Duels",
+      "intro": "Esta lista de niveles organiza los tipos de armas comunes de Knife Duels según su efectividad en el combate PvP a corta distancia. Las armas más rápidas suelen recompensar la buena sincronización, mientras que las armas más pesadas infligen golpes más fuertes.",
+      "items": [
+        {
+          "weapon": "Katana",
+          "tier": "S",
+          "description": "Velocidad de ataque rápida con un alcance excelente, lo que la hace fuerte para jugadores de duelo experimentados."
+        },
+        {
+          "weapon": "Cuchillo mariposa",
+          "tier": "S",
+          "description": "Arma de alta movilidad con animaciones rápidas y un gran potencial para superar al rival."
+        },
+        {
+          "weapon": "Daga",
+          "tier": "A",
+          "description": "Arma muy rápida que destaca en combates agresivos a corta distancia."
+        },
+        {
+          "weapon": "Machete",
+          "tier": "A",
+          "description": "Opción equilibrada de daño y alcance adecuada para la mayoría de los jugadores."
+        },
+        {
+          "weapon": "Cleaver",
+          "tier": "B",
+          "description": "Arma de golpe pesado con ataques más lentos pero daño confiable."
+        },
+        {
+          "weapon": "Cuchillo básico",
+          "tier": "C",
+          "description": "Arma inicial con mecánicas simples pero menos ventajas de combate."
+        }
+      ]
+    },
+    "knifeDuelsGameplayGuide": {
+      "title": "Guía de juego de Knife Duels",
+      "intro": "Knife Duels es una experiencia PvP de Roblox de ritmo rápido centrada en el combate con cuchillos a corta distancia. Los jugadores compiten en diferentes modos mientras mejoran sus habilidades, coleccionan armas y ganan recompensas.",
+      "items": [
+        {
+          "mode": "Duelo 1v1",
+          "rules": "Dos jugadores luchan en una arena privada. El primer jugador en eliminar al oponente gana la ronda.",
+          "strategy": "Concéntrate en calcular el tiempo de los ataques, leer el movimiento del enemigo y controlar la distancia."
+        },
+        {
+          "mode": "Todos contra todos",
+          "rules": "Varios jugadores luchan simultáneamente hasta que el ganador alcanza la puntuación objetivo.",
+          "strategy": "Evita las peleas multitudinarias y ataca a los oponentes cuando sean vulnerables."
+        },
+        {
+          "mode": "Duelos por equipos",
+          "rules": "Los jugadores se dividen en equipos y compiten juntos por las eliminaciones.",
+          "strategy": "Coordina los ataques y apoya a tus compañeros de equipo durante las peleas."
+        },
+        {
+          "mode": "Entrenamiento",
+          "rules": "Practica las mecánicas de combate sin presión competitiva.",
+          "strategy": "Mejora la puntería, el movimiento, el tiempo de ataque y las reacciones defensivas."
+        }
+      ]
+    },
+    "knifeDuelsControlsGuide": {
+      "title": "Guía de controles de Knife Duels",
+      "intro": "Esta guía explica los controles principales de teclado, ratón y móvil utilizados en Knife Duels. Los nuevos jugadores pueden aprender rápidamente cómo moverse, atacar, esquivar y defenderse antes de entrar en partidas competitivas.",
+      "items": [
+        {
+          "platform": "PC",
+          "input": "Botón izquierdo del ratón (LMB)",
+          "action": "Realiza un ataque con cuchillo",
+          "usage": "Usa clics rápidos para golpear a los oponentes durante el combate a corta distancia"
+        },
+        {
+          "platform": "PC",
+          "input": "Shift",
+          "action": "Movimiento de sprint",
+          "usage": "Muévete más rápido para perseguir enemigos o escapar de situaciones peligrosas"
+        },
+        {
+          "platform": "PC",
+          "input": "Espacio",
+          "action": "Saltar",
+          "usage": "Salta sobre los ataques y mejora las opciones de movimiento durante las peleas"
+        },
+        {
+          "platform": "PC",
+          "input": "Ctrl",
+          "action": "Bloqueo o postura defensiva",
+          "usage": "Reduce el daño recibido y crea oportunidades para contraataques"
+        },
+        {
+          "platform": "Móvil",
+          "input": "Joystick virtual",
+          "action": "Mover personaje",
+          "usage": "Controla la dirección del movimiento durante las batallas"
+        },
+        {
+          "platform": "Móvil",
+          "input": "Botón de ataque",
+          "action": "Blandir cuchillo",
+          "usage": "Toca el botón de ataque para realizar golpes cuerpo a cuerpo"
+        }
+      ]
+    },
+    "knifeDuelsUpdateHistory": {
+      "title": "Historial de actualizaciones de Knife Duels",
+      "intro": "Esta cronología ayuda a los jugadores que regresan a comprender los cambios importantes, las nuevas armas y las mejoras de juego introducidas a través de las actualizaciones de Knife Duels.",
+      "items": [
+        {
+          "version": "Versión 1.0",
+          "date": "Lanzamiento inicial",
+          "changes": [
+            "Se añadió el sistema de combate principal con cuchillos",
+            "Se introdujeron partidas 1v1 y Todos contra todos",
+            "Se añadieron recompensas básicas por desbloquear cuchillos"
+          ]
+        },
+        {
+          "version": "Actualización de combate",
+          "date": "Actualización de desarrollo temprano",
+          "changes": [
+            "Se mejoró la sincronización de los ataques",
+            "Se ajustó la detección de impactos cuerpo a cuerpo",
+            "Se añadieron nuevos efectos de combate"
+          ]
+        },
+        {
+          "version": "Actualización de armas",
+          "date": "Expansión de contenido",
+          "changes": [
+            "Se añadieron tipos de cuchillos adicionales",
+            "Se introdujeron nuevos aspectos",
+            "Se expandió la progresión de recompensas"
+          ]
+        },
+        {
+          "version": "Actualización de equilibrio",
+          "date": "Ajuste de jugabilidad",
+          "changes": [
+            "Se cambiaron los valores de equilibrio de las armas",
+            "Se mejoró el emparejamiento competitivo",
+            "Se ajustaron las mecánicas de movimiento"
+          ]
+        },
+        {
+          "version": "Actualización de la comunidad",
+          "date": "Lanzamiento de temporada",
+          "changes": [
+            "Se añadieron recompensas limitadas",
+            "Se mejoró la experiencia del jugador",
+            "Se actualizaron los anuncios del juego"
+          ]
+        }
+      ]
+    },
+    "knifeDuelsTipsAndTricks": {
+      "title": "Consejos y trucos de Knife Duels",
+      "intro": "Ganar en Knife Duels requiere más que ataques rápidos. Estos consejos ayudan a los jugadores a entender el distanciamiento, la sincronización, el movimiento y los errores comunes que reducen sus posibilidades de ganar.",
+      "items": [
+        {
+          "title": "Controla tu distancia",
+          "description": "Quédate al límite del rango de ataque para provocar los golpes del enemigo y crear oportunidades de contraataque."
+        },
+        {
+          "title": "Aprende la sincronización de los ataques",
+          "description": "Evita presionar botones al azar y ataca cuando los oponentes terminen su movimiento o fallen un golpe."
+        },
+        {
+          "title": "Usa la ventaja de movimiento",
+          "description": "Combina saltos, desplazamientos laterales y sprints para que sea más difícil golpearte."
+        },
+        {
+          "title": "Observa los patrones del enemigo",
+          "description": "Estudia los hábitos de ataque recurrentes y predice cuándo atacarán o esquivarán los oponentes."
+        },
+        {
+          "title": "Evita las áreas de combate abiertas",
+          "description": "Usa el posicionamiento y los objetos del mapa para limitar las opciones de movimiento del enemigo."
+        },
+        {
+          "title": "Practica antes de las partidas clasificatorias",
+          "description": "Usa el entrenamiento o las peleas casuales para mejorar tus mecánicas antes de las batallas competitivas."
+        }
+      ]
+    },
+    "knifeDuelsCommunityLinks": {
+      "title": "Enlaces de la comunidad de Knife Duels",
+      "intro": "La comunidad de Knife Duels ofrece lugares para que los jugadores descubran anuncios, compartan estrategias y se mantengan al día con los nuevos lanzamientos.",
+      "items": [
+        {
+          "platform": "Página del juego en Roblox",
+          "purpose": "Acceso oficial al juego, actualizaciones, reseñas de jugadores e información del juego",
+          "link": "https://www.roblox.com/games/79877593860968/KNIFE-DUELS"
+        },
+        {
+          "platform": "Roblox Discover",
+          "purpose": "Encuentra Knife Duels y otras experiencias de PvP con cuchillos en Roblox",
+          "link": "https://www.roblox.com/discover?Keyword=knife%20duels"
+        },
+        {
+          "platform": "Gameplay en YouTube",
+          "purpose": "Mira videos de gameplay, guías de combate y momentos destacados de la comunidad",
+          "link": "https://www.youtube.com/results?search_query=knife+duels+roblox"
+        },
+        {
+          "platform": "Discusiones en Reddit",
+          "purpose": "Comparte estrategias, opiniones sobre armas y experiencias de juego con otros jugadores",
+          "link": "https://www.reddit.com/search/?q=knife%20duels%20roblox"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Knife Duels",
+    "questions": [
+      {
+        "question": "¿Qué es Knife Duels en Roblox?",
+        "answer": "Knife Duels es un juego de PvP en Roblox de ritmo rápido centrado en el combate con cuchillos a corta distancia en modos como 1v1, Free-For-All y Team Duels."
+      },
+      {
+        "question": "¿Dónde puedo jugar Knife Duels?",
+        "answer": "Puedes jugar Knife Duels directamente en Roblox a través de la página oficial del juego en cualquier dispositivo compatible."
+      },
+      {
+        "question": "¿Cómo canjeo los códigos de Knife Duels?",
+        "answer": "Abre el menú de canje de códigos dentro de Knife Duels, introduce un código activo y reclama tus monedas, skins y potenciadores gratis."
+      },
+      {
+        "question": "¿Es Knife Duels gratuito?",
+        "answer": "Sí. Knife Duels es gratuito en Roblox, con cosméticos y potenciadores opcionales disponibles a través del juego y los códigos."
+      },
+      {
+        "question": "¿Cuáles son los mejores cuchillos en Knife Duels?",
+        "answer": "Las armas rápidas como la Katana y la Butterfly Knife ocupan los puestos más altos en la tier list de Knife Duels gracias a su velocidad y alcance."
+      },
+      {
+        "question": "¿Recibe Knife Duels actualizaciones periódicas?",
+        "answer": "Sí. Knife Duels recibe actualizaciones que añaden nuevos cuchillos, skins, cambios de equilibrio y recompensas por tiempo limitado."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para dominar Knife Duels?",
+    "description": "Salta a la arena en Roblox para disfrutar de duelos con cuchillos rápidos en 1v1, Free For All y Team Duels con skins exclusivas y rachas de bajas.",
+    "joinCommunity": "---",
+    "joinGame": "Explorar en Roblox"
+  },
+  "footer": {
+    "title": "Jugar en Roblox",
+    "description": "Knife Duels Wiki",
+    "resources": "Tu centro de recursos completo para códigos, skins, armas, controles, estrategias de duelo y guías de modos de juego de Knife Duels.",
+    "community": "Recursos",
+    "legal": "Comunidad",
+    "robloxGame": "Legal",
+    "robloxDiscover": "Juego de Roblox",
+    "about": "Roblox Discover",
+    "privacy": "Acerca de",
+    "terms": "Política de privacidad",
+    "copyrightNotice": "Términos de servicio",
+    "copyright": "Copyright",
+    "disclaimer": "© 2026 Knife Duels Wiki. No está afiliado a Roblox Corporation ni a los desarrolladores de Knife Duels."
+  },
+  "pages": {
+    "codes": {
+      "title": "Sitio web de recursos no oficial creado por fans.",
+      "description": "Códigos de Knife Duels",
+      "metaTitle": "Códigos activos de Knife Duels para monedas, skins y potenciadores gratis. Canjea los últimos códigos funcionales y reclama recompensas antes de que expiren.",
+      "metaDescription": "Códigos de Knife Duels - Códigos de canje activos (julio de 2026)",
+      "categoryLabel": "Consigue los últimos códigos activos de Knife Duels para obtener monedas, skins y potenciadores gratis. Actualizado diariamente con códigos verificados y una guía paso a paso.",
+      "whatIs": "CANJEAR CÓDIGOS",
+      "whatIsDescription": "¿Qué son los códigos de Knife Duels?",
+      "why": "Los códigos de Knife Duels son claves canjeables lanzadas por los desarrolladores que otorgan recompensas gratuitas en el juego, como monedas, skins de cuchillos, potenciadores de XP y cosméticos limitados. Introdúcelos en el menú de canje para reclamar bonificaciones al instante.",
+      "whySteps": {
+        "step1Title": "¿Por qué canjear códigos?",
+        "step1Description": "Monedas y potenciadores gratis",
+        "step2Title": "Reclama monedas y potenciadores de XP sin gastar Robux para acelerar tu progresión inicial",
+        "step2Description": "Skins exclusivas",
+        "step3Title": "Desbloquea skins de cuchillos y cosméticos disponibles solo a través de códigos activos",
+        "step3Description": "Anticípate a los vencimientos"
+      },
+      "featured": "Canjea los códigos rápido antes de que expiren y vuelve a consultar para ver los nuevos lanzamientos",
+      "all": "Destacados y esenciales"
+    },
+    "guide": {
+      "title": "Todos los códigos",
+      "description": "Guía de Knife Duels",
+      "metaTitle": "Guías completas de Knife Duels: desde conceptos básicos y controles para principiantes hasta consejos avanzados de lanzamiento, mecánicas de combate y estrategias para ganar duelos.",
+      "metaDescription": "Guía de Knife Duels - Consejos para principiantes, controles y estrategias",
+      "categoryLabel": "Domina Knife Duels con guías completas que cubren conceptos básicos para principiantes, controles de PC y móviles, lanzamiento de cuchillos, mecánicas de juego y estrategias de duelo avanzadas.",
+      "whatIs": "GUÍAS DEL JUEGO",
+      "whatIsDescription": "¿Qué es la guía de Knife Duels?",
+      "why": "La guía de Knife Duels cubre todo lo que necesitas para jugar bien: configuración inicial, controles para PC y móviles, cómo lanzar cuchillos, movimiento y las mecánicas de combate principales que deciden cada duelo.",
+      "whySteps": {
+        "step1Title": "¿Por qué leer la guía?",
+        "step1Description": "---",
+        "step2Title": "Domina los controles de PC y móviles para atacar, moverte y apuntar para que tus reacciones sean instintivas",
+        "step2Description": "Lanza cuchillos con precisión",
+        "step3Title": "Practica el apuntado, la anticipación de objetivos y el tiempo de lanzamiento para acertar golpes constantes",
+        "step3Description": "Gana más duelos"
+      },
+      "featured": "Aplica estrategias de movimiento, posicionamiento y contraataque para subir en la tabla de clasificación",
+      "all": "Destacados y esenciales"
+    },
+    "weapons": {
+      "title": "Todas las guías",
+      "description": "Armas de Knife Duels",
+      "metaTitle": "Todas las armas y cuchillos de Knife Duels clasificados por velocidad, alcance, daño y rareza. Compara cuchillos, consulta precios y crea el mejor equipamiento.",
+      "metaDescription": "Armas de Knife Duels - Tier List de cuchillos, estadísticas y precios",
+      "categoryLabel": "Compara cada arma y cuchillo de Knife Duels con estadísticas, niveles de rareza, precios y una tier list completa. Encuentra los mejores cuchillos para la tienda, el intercambio y el combate.",
+      "whatIs": "ARMAS Y TIER LIST",
+      "whatIsDescription": "¿Qué son las armas de Knife Duels?",
+      "why": "Las armas de Knife Duels son los cuchillos que empuñas en combate. Cada cuchillo tiene estadísticas únicas de velocidad, alcance y daño, además de un nivel de rareza que afecta su valor en la tienda y en los intercambios.",
+      "whySteps": {
+        "step1Title": "¿Por qué comparar armas?",
+        "step1Description": "Elige el mejor cuchillo",
+        "step2Title": "Elige cuchillos que se ajusten a tu velocidad, alcance y estilo de juego agresivo",
+        "step2Description": "Entiende la rareza y el valor",
+        "step3Title": "Aprende qué rarezas de cuchillos tienen más valor para las compras en la tienda y los intercambios",
+        "step3Description": "Intercambia de forma inteligente"
+      },
+      "featured": "Usa referencias de precios precisas para salir ganando en los intercambios y evitar pagar de más en la tienda de cuchillos",
+      "all": "Destacados y esenciales"
+    },
+    "values": {
+      "title": "Todas las armas",
+      "description": "Valores de Knife Duels",
+      "metaTitle": "Lista de valores precisa de Knife Duels y tabla de valores de intercambio para cuchillos y objetos raros. Consulta valores de intercambio justos antes de cada trato.",
+      "metaDescription": "Valores de Knife Duels - Lista y tabla de valores de intercambio",
+      "categoryLabel": "Consulta la última lista de valores de Knife Duels, los valores de intercambio y la tabla de valores para cuchillos y objetos raros. Intercambia con confianza con valores de objetos precisos y actualizados.",
+      "whatIs": "VALORES DE INTERCAMBIO",
+      "whatIsDescription": "¿Qué son los valores de Knife Duels?",
+      "why": "Los valores de Knife Duels son el valor estimado de cada cuchillo y objeto raro utilizado por la comunidad de intercambio. La lista y la tabla de valores ayudan a los jugadores a acordar intercambios justos en lugar de adivinar.",
+      "whySteps": {
+        "step1Title": "¿Por qué usar una lista de valores?",
+        "step1Description": "Intercambia de forma justa",
+        "step2Title": "Compara los valores de los objetos antes de cada intercambio para que ambas partes obtengan un trato justo",
+        "step2Description": "Identifica objetos raros",
+        "step3Title": "Identifica cuchillos raros y de alto valor que mantienen su precio con el tiempo",
+        "step3Description": "Evita malos tratos"
+      },
+      "featured": "Usa la tabla de valores para rechazar ofertas bajas y proteger tu inventario",
+      "all": "Destacados y esenciales"
+    },
+    "crosshair": {
+      "title": "Todos los valores",
+      "description": "IDs de mira de Knife Duels y ajustes de mira personalizados. Explora códigos de mira y aprende cómo importar una retícula de apuntado personalizada.",
+      "metaTitle": "Mira de Knife Duels - Guía de IDs y miras personalizadas",
+      "metaDescription": "Encuentra IDs de mira para Knife Duels y aprende a configurar una mira personalizada. Explora códigos de mira populares e importa tu retícula de apuntado favorita en segundos.",
+      "categoryLabel": "MIRA Y APUNTADO",
+      "whatIs": "¿Qué es la mira de Knife Duels?",
+      "whatIsDescription": "La mira de Knife Duels es la retícula en pantalla que indica dónde caerán tus lanzamientos. Los jugadores pueden cambiar de mira usando IDs compartidos o crear una mira personalizada para apuntar mejor.",
+      "why": "¿Por qué personalizar tu mira?",
+      "whySteps": {
+        "step1Title": "Apunta con más precisión",
+        "step1Description": "Elige una forma y color de retícula que resalte sobre el fondo de la arena",
+        "step2Title": "Usa IDs de mira compartidos",
+        "step2Description": "Importa códigos de mira populares de otros jugadores con un solo ID",
+        "step3Title": "Crea una mira personalizada",
+        "step3Description": "Ajusta el tamaño, grosor y separación para adaptarlos a tu estilo de lanzamiento"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las miras"
+    },
+    "modes": {
+      "title": "Modos de Knife Duels",
+      "description": "Todos los modos de juego de Knife Duels explicados: duelos de cuchillo vs pistola, duelos de francotirador y reglas 1v1. Aprende cómo se juega cada modo y cómo ganar.",
+      "metaTitle": "Modos de Knife Duels - Cuchillo vs pistola, francotirador y duelos 1v1",
+      "metaDescription": "Explora cada modo de Knife Duels, incluyendo duelos de cuchillo vs pistola, pistola vs cuchillo, francotirador y 1v1. Conoce las reglas, estrategias y condiciones de victoria para cada formato.",
+      "categoryLabel": "MODOS DE JUEGO",
+      "whatIs": "¿Qué son los modos de Knife Duels?",
+      "whatIsDescription": "Los modos de Knife Duels son los diferentes formatos de partida que puedes jugar, incluyendo duelos de cuchillo contra pistola, pistola contra cuchillo, francotirador y 1v1 puro. Cada modo tiene sus propias reglas y condiciones de victoria.",
+      "why": "¿Por qué aprender cada modo?",
+      "whySteps": {
+        "step1Title": "Conoce las reglas",
+        "step1Description": "Entiende las condiciones de victoria y el ritmo de los duelos de cuchillo vs pistola, francotirador y 1v1",
+        "step2Title": "Adapta tu equipamiento",
+        "step2Description": "Cambia de cuchillos y estrategias dependiendo de si te enfrentas a una pistola, un francotirador u otro cuchillo",
+        "step3Title": "Domina tu mejor modo",
+        "step3Description": "Encuentra el formato donde tu puntería y habilidades de movimiento te den la mayor ventaja"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los modos"
+    },
+    "updates": {
+      "title": "Actualizaciones de Knife Duels",
+      "description": "Últimas actualizaciones de Knife Duels, nuevos cuchillos, eventos y notas del parche de 2026. Sigue cada nuevo lanzamiento y cambio de equilibrio en un solo lugar.",
+      "metaTitle": "Actualizaciones de Knife Duels - Nuevos cuchillos, eventos y notas del parche de 2026",
+      "metaDescription": "Mantente al día con las actualizaciones de Knife Duels, incluyendo nuevos cuchillos, eventos limitados, cambios de equilibrio y notas del parche de 2026. Mira lo que cada actualización añade a la arena.",
+      "categoryLabel": "ACTUALIZACIONES Y PARCHES",
+      "whatIs": "¿Qué son las actualizaciones de Knife Duels?",
+      "whatIsDescription": "Las actualizaciones de Knife Duels son los parches y lanzamientos de contenido publicados por los desarrolladores. Añaden nuevos cuchillos, modos de juego, eventos y cambios de equilibrio a lo largo de 2026 y más allá.",
+      "why": "¿Por qué seguir las actualizaciones?",
+      "whySteps": {
+        "step1Title": "Consigue los nuevos cuchillos antes que nadie",
+        "step1Description": "Descubre cuchillos recién lanzados y consíguelos antes de que su valor suba",
+        "step2Title": "Únete a eventos limitados",
+        "step2Description": "Juega eventos de tiempo limitado para obtener aspectos, códigos y recompensas exclusivos",
+        "step3Title": "Adáptate a los cambios de equilibrio",
+        "step3Description": "Ajusta tu equipamiento y estrategia cuando los parches cambien las estadísticas de las armas o las reglas de los modos"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las actualizaciones"
+    }
   }
 }
