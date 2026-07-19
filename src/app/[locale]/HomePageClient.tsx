@@ -158,13 +158,13 @@ export default function HomePageClient({
       },
       {
         "@type": "VideoObject",
-        name: "LUCID BLOCKS | AVAILABLE NOW",
+        name: "This New KNIFE DUELS Game Is CRAZY! (ROBLOX)",
         description:
-          "Official Lucid Blocks video featuring the Steam launch trailer and gameplay preview.",
-        uploadDate: "2026-03-12",
+          "Knife Duels gameplay showcase featuring fast-paced Roblox knife PvP combat, duels, and tournaments.",
+        uploadDate: "2026-07-01",
         thumbnailUrl: `${siteUrl}/images/hero.webp`,
-        embedUrl: "https://www.youtube.com/embed/7C7fybRM_No",
-        url: "https://www.youtube.com/watch?v=7C7fybRM_No",
+        embedUrl: "https://www.youtube.com/embed/g5sp0pSYhIM",
+        url: "https://www.youtube.com/watch?v=g5sp0pSYhIM",
       },
     ],
   };
@@ -279,8 +279,8 @@ export default function HomePageClient({
         <div className="scroll-reveal container mx-auto max-w-5xl">
           <div className="relative overflow-hidden rounded-2xl">
             <VideoFeature
-              videoId="7C7fybRM_No"
-              title="LUCID BLOCKS | AVAILABLE NOW"
+              videoId="g5sp0pSYhIM"
+              title="This New KNIFE DUELS Game Is CRAZY! (ROBLOX)"
             />
           </div>
         </div>
