@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cómo jugar a Knife Duels: Guía para principiantes de 2026 y consejos de combate",
+  description: "Domina cómo jugar a Knife Duels con nuestra guía de expertos. Aprende mecánicas de combate, rareza de skins, ajustes de asistencia de apuntado y estrategias para conseguir monedas en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Knife+Duels+Gameplay+Guide",
+  date: "2026-07-20",
+  author: "Equipo de la Wiki de Knife Duels"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Jugabilidad principal**: Domina **cómo jugar a Knife Duels** equilibrando las puñaladas cuerpo a cuerpo con los lanzamientos de cuchillos a distancia en un formato de primero a seis.
+- **Mecánicas de combate**: Utiliza la función de **Asistencia de apuntado** para lanzamientos precisos o desactívala para tener un control manual total.
+- **Sistema económico**: Gana monedas mediante bajas y victorias para desbloquear **cajas de armas** que van desde rarezas Comunes hasta Míticas.
+- **Sistema de salud**: Los jugadores se **curan automáticamente** con el tiempo, lo que hace que retirarse sea una estrategia de supervivencia viable durante rondas intensas.
+- **Condición de victoria**: Las partidas suelen estructurarse al **Mejor de 11**, requiriendo seis rondas ganadas para asegurar la victoria general.
+</Callout>
+
+<Section icon={Map} title="Primeros pasos con lo básico de Knife Duels">
+
+Knife Duels es un juego competitivo de Roblox de ritmo rápido que enfatiza la precisión, el tiempo y el movimiento. A diferencia de los shooters tradicionales, este título se centra por completo en el combate con cuchillos, inspirándose en títulos populares como Sniper Duels y Rivals. Entender **cómo jugar a Knife Duels** requiere un conocimiento firme de los dos modos de ataque principales: apuñalar y lanzar. Aunque el juego parece sencillo a primera vista, los matices de la gestión de la caja de colisiones (hitbox) y la velocidad de movimiento crean un techo de habilidad elevado para los jugadores competitivos.
+
+**Puntos destacados del video:**
+- **Versatilidad de combate**: Aprende cuándo cambiar entre apuñalar cuerpo a cuerpo y lanzar cuchillos a larga distancia.
+- **Apertura de cajas**: Un vistazo a la economía de skins, incluyendo el proceso para desbloquear objetos Míticos y Secretos.
+- **Estructura de la partida**: Resumen del sistema basado en rondas y cómo asegurar una victoria ("dub") mediante un rendimiento constante.
+- **Utilidad de la asistencia de apuntado**: Demostración de cómo la mecánica de fijación de objetivo afecta a la jugabilidad tanto para jugadores nuevos como veteranos.
+
+<YouTubeEmbed videoId="g5sp0pSYhIM" title="¡Este nuevo juego de KNIFE DUELS es una LOCURA! (ROBLOX)" />
+
+<Callout type="tip" title="Consejo de configuración inicial">
+Antes de lanzarte a tu primer duelo, ve al menú de ajustes para ajustar tu sensibilidad. Dado que el juego depende en gran medida de los tiros rápidos (flick-shots) para lanzar cuchillos, una sensibilidad más alta a menudo ayuda a seguir a los oponentes que se mueven rápido.
+</Callout>
+
+| Característica | Descripción | Importancia |
+|---------|-------------|------------|
+| **Condición de victoria** | Llegar primero a 6 rondas ganadas | Alta |
+| **Modos de ataque** | Apuñalar (Cuerpo a cuerpo) y Lanzar (A distancia) | Crítica |
+| **Curación** | Regeneración automática de salud con el tiempo | Media |
+| **Moneda** | Monedas ganadas por baja/victoria/misión | Alta |
+| **Personalización** | Skins de armas y animaciones de finalización | Baja (Cosmética) |
+
+</Section>
+
+<Section icon={Swords} title="Dominando las mecánicas de combate y las hitboxes">
+
+El corazón de **cómo jugar a Knife Duels** reside en la interacción entre tu arma y la caja de colisiones (hitbox) del enemigo. El juego cuenta con un motor de física único donde los cuchillos lanzados tienen tiempo de viaje y caída, lo que requiere que los jugadores calculen la trayectoria de sus disparos. Apuñalar, por otro lado, requiere una proximidad cercana pero ofrece una ejecución más rápida si el enemigo es sorprendido con la guardia baja.
+
+Una de las características más discutidas en la comunidad es la **Asistencia de apuntado**. Para los principiantes, esta mecánica ayuda a fijar los objetivos, haciendo que los lanzamientos sean más consistentes. Sin embargo, los jugadores experimentados a menudo encuentran que la fijación puede ser restrictiva al intentar predecir el movimiento errático de un oponente.
+
+| Tipo de ataque | Rango | Daño potencial | Mejor uso |
+|-------------|-------|------------------|------------|
+| **Apuñalar** | Muy corto | Alto / Instantáneo | Cuando un oponente falla un lanzamiento y está recargando |
+| **Lanzamiento rápido** | Medio | Moderado | Fuego rápido para presionar el movimiento del oponente |
+| **Lanzamiento cargado** | Largo | Alto / Tiro a la cabeza | Eliminar oponentes desde el otro lado del mapa o detrás de coberturas |
+
+<Callout type="warning" title="Conciencia de la hitbox">
+Las hitboxes para apuñalar ocasionalmente pueden parecer inconsistentes debido a la latencia del servidor. Si tienes lag, prioriza lanzar cuchillos sobre el combate cuerpo a cuerpo para evitar las "puñaladas fantasma", donde tu hoja parece golpear pero no registra daño.
+</Callout>
+
+### Entendiendo el sistema de asistencia de apuntado
+La asistencia de apuntado en Knife Duels es notablemente fuerte en comparación con otros juegos de duelo de Roblox. Proporciona una atracción "magnética" hacia el torso o la cabeza del oponente. Si bien esto es excelente para aprender los conceptos básicos, dominar el juego implica saber cuándo desactivarla para obtener trayectorias de proyectiles más creativas.
+
+| Ajuste | Efecto en la jugabilidad | Recomendado para |
+|---------|--------------------|-----------------|
+| **Asistencia de apuntado ACTIVADA** | Bloquea el cursor cerca de los objetivos | Principiantes / Jugadores de móvil |
+| **Asistencia de apuntado DESACTIVADA** | Control manual completo del arco | Jugadores avanzados / Competitivos |
+| **Sensibilidad alta** | Giros de 180 grados más rápidos | Estilos de juego agresivos de "Rush" |
+
+</Section>
+
+<Section icon={Sparkles} title="Economía de skins y rareza de cajas">
+
+La progresión en Knife Duels está estrechamente ligada a su robusto sistema de skins. Los jugadores recolectan monedas para comprar cajas, que contienen varios niveles de estética para las armas. Aunque estas skins no proporcionan ventajas estadísticas, son el símbolo principal de prestigio dentro de la arena.
+
+<CardGrid cols={3}>
+  <Card title="Común / Rara">
+    - **Coste**: El punto de entrada más bajo
+    - **Ejemplos**: Spider, Basic Steel
+    - **Valor de reventa**: 10 - 50 monedas
+  </Card>
+  <Card title="Épica / Legendaria">
+    - **Efectos visuales**: Efectos de partículas
+    - **Ejemplos**: Blood, Neon Edge
+    - **Valor de reventa**: 100 - 500 monedas
+  </Card>
+  <Card title="Mítica / Secreta">
+    - **Rareza**: Tasa de obtención extremadamente baja
+    - **Efectos visuales**: Animaciones únicas
+    - **Valor de reventa**: Más de 1000 monedas
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Estrategia de farmeo">
+Concéntrate en completar las misiones diarias de 75 bajas. Estas proporcionan un impulso de monedas significativo (alrededor de 400 monedas), lo que te permite abrir al menos dos cajas de nivel alto por día sin necesidad de farmear intensamente.
+</Callout>
+
+| Nivel de rareza | Tasa de obtención aproximada | Valor de venta promedio |
+|-------------|-----------------------|--------------------|
+| **Común** | 60% | 10 monedas |
+| **Rara** | 25% | 35 monedas |
+| **Épica** | 10% | 100 monedas |
+| **Mítica** | 4% | 1000 monedas |
+| **Secreta** | <1% | Variable / Alto |
+
+</Section>
+
+<Section icon={Target} title="Guía paso a paso para ganar partidas">
+
+Ganar una partida de manera constante requiere más que solo buena puntería; requiere posicionamiento táctico y gestión de recursos. Sigue estos pasos para mejorar tu tasa de victorias en el meta de 2026.
+
+<Steps>
+  <Step num="1" title="Analiza el movimiento del oponente">
+    Pasa la primera ronda observando si tu oponente salta con frecuencia o se desplaza lateralmente (strafe) en un patrón predecible. Esto te dirá dónde apuntar tu primer lanzamiento.
+  </Step>
+  <Step num="2" title="Controla la altura">
+    La mayoría de los mapas cuentan con verticalidad. Pararse sobre cajas o repisas hace que sea más difícil para los oponentes darte en la cabeza, al tiempo que te brinda un mejor ángulo para lanzamientos hacia abajo.
+  </Step>
+  <Step num="3" title="Gestiona tu salud">
+    Si recibes un golpe, no entres en pánico. Usa el entorno para romper la línea de visión. Como te curas automáticamente, una retirada de 5 segundos puede reiniciar la pelea a tu favor.
+  </Step>
+  <Step num="4" title="La carnada y la puñalada">
+    Lanza un cuchillo intencionadamente desviado para tentar al oponente a arremeter contra ti. A medida que se acerque, cambia a cuerpo a cuerpo y ejecuta una puñalada rápida.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Conciencia del mapa">
+Mantén siempre un ojo en las zonas "Fuera de límites" (Out of Bounds). Algunos mapas tienen pasarelas estrechas donde un solo paso en falso resulta en la pérdida de la ronda, independientemente de tu salud actual.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de progresión y lista de tareas diarias">
+
+Para mantenerte competitivo en el mundo en constante evolución de Knife Duels, los jugadores deben apuntar a hitos específicos. El uso de un enfoque estructurado para tus sesiones diarias garantizará que tengas las mejores skins y el rango más alto en la tabla de clasificación.
+
+<Checklist
+  id="daily-pro-routine"
+  title="Tareas diarias esenciales:"
+  items={[
+    "Completa el hito de 75 bajas para obtener monedas de bonificación",
+    "Abre al menos una caja de armas para buscar Míticas",
+    "Gana 5 partidas seguidas para mantener tu bonificación por racha",
+    "Practica el apuntado manual (Asistencia desactivada) durante 15 minutos",
+    "Revisa la tienda para ver las skins de rotación por tiempo limitado"
+  ]}
+/>
+
+| Hito | Recompensa / Beneficio | Dificultad |
+|-----------|------------------|------------|
+| **Primeras 10 victorias** | Desbloquear insignia de bronce | Fácil |
+| **50 tiros a la cabeza** | Título de Maestro de la Precisión | Media |
+| **1000 monedas** | Apertura masiva de cajas | Media |
+| **Obtención mítica** | Alto valor de reventa | Difícil (RNG) |
+
+<Callout type="tip" title="Juego social">
+Jugar en modos 2v2 con un compañero coordinado es la forma más rápida de farmear victorias. Concentra el fuego en un solo objetivo para convertir rápidamente la partida en una ventaja de 2v1.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es Knife Duels un juego pay-to-win?",
+    answer: "No, el juego se basa en la habilidad. Aunque puedes comprar monedas para adquirir cajas y skins, estos objetos son puramente cosméticos y no aumentan el daño ni la velocidad de movimiento."
+  },
+  {
+    question: "¿Cómo me curo en medio de un duelo?",
+    answer: "La curación es automática. Si evitas recibir daño durante unos segundos, tu barra de salud comenzará a reponerse. Usa las coberturas para facilitar este proceso."
+  },
+  {
+    question: "¿Cuál es la mejor manera de ganar monedas rápido?",
+    answer: "Completar las misiones diarias, como conseguir 75 bajas, es el método más eficiente. Además, ganar partidas de forma constante proporciona un flujo constante de dinero."
+  },
+  {
+    question: "¿Puedo desactivar la asistencia de apuntado?",
+    answer: "Sí, puedes activar o desactivar la asistencia de apuntado en el menú de ajustes. Muchos de los mejores jugadores prefieren apagarla para tener un mejor control sobre la trayectoria de vuelo de su cuchillo."
+  }
+]} />
+
+<Callout type="warning" title="Advertencia de seguridad">
+Ten cuidado con los jugadores que ofrecen "skins míticas gratis" a través de enlaces externos. Realiza siempre intercambios dentro de la interfaz oficial del juego para garantizar que tu cuenta y tus objetos permanezcan seguros.
+</Callout>
+
+</Section>

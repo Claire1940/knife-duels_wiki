@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Jugabilidad de Knife Duels: Mecánicas de Combate y Tácticas Ganadoras 2026",
+  description: "Domina la jugabilidad de Knife Duels con nuestra guía 2026. Aprende movimiento avanzado, estadísticas de armas y estrategias tácticas para dominar cada encuentro cercano.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Knife+Duels+Gameplay+Guide",
+  date: "2026-07-20",
+  author: "Equipo de la Wiki de Knife Duels"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Jugabilidad Principal**: Domina el arte de la **jugabilidad de Knife Duels** centrándote en el espaciado, el tiempo y la manipulación de la hitbox.
+- **Meta de Movimiento**: El juego de alto nivel se basa en el **counter-strafing** y los saltos agachados para evitar ataques letales.
+- **Elección de Arma**: Diferentes hojas ofrecen variaciones en el **alcance y velocidad de oscilación**, lo que requiere ajustes tácticos específicos.
+- **Rutina de Práctica**: Utiliza arenas dedicadas de 1v1 para desarrollar **memoria muscular** para paradas y estocadas.
+- **Objetivo Clave**: Superar a los oponentes mediante **engaños psicológicos** en lugar de simplemente spamear ataques.
+</Callout>
+
+<Section icon={Swords} title="Mecánicas Principales de la Jugabilidad de Knife Duels">
+
+Comprender la física fundamental de la **jugabilidad de Knife Duels** es el primer paso para convertirse en un duelista de primer nivel. A diferencia del combate a distancia, los encuentros cuerpo a cuerpo en este entorno están dictados por los "datos de frames" y las "zonas de alcance". Cada movimiento tiene una animación de inicio, una ventana de daño activo y una fase de recuperación. Dominar estas tres etapas te permite castigar a los oponentes que fallan sus ataques.
+
+**Puntos Destacados del Video:**
+- **Importancia del Espaciado**: Mantenerse justo fuera del alcance del oponente para provocar un ataque fallido.
+- **Sincronización de la Estocada**: Usar el impulso hacia adelante para extender el rango efectivo de un tajo estándar.
+- **Realidad del Rango Hierro**: Errores comunes vistos en duelos de rango bajo, como saltos excesivos.
+
+<YouTubeEmbed videoId="bdGEEz9DgiI" title="Los duelos de cuchillos en rango hierro son así" />
+
+En el juego competitivo, la experiencia del "Rango Hierro" a menudo implica movimientos caóticos, pero a medida que avanzas, la jugabilidad se convierte en una danza calculada. Debes aprender a leer la "intención" del oponente basándote en sus patrones de movimiento. Si corren directamente hacia ti, es probable que busquen una estocada pesada. Si están circulando, están esperando a que tú ataques primero.
+
+| Tipo de Ataque | Daño | Calificación de Velocidad | Mejor Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| **Tajo Rápido** | Medio | Rápido | Interrumpir ataques pesados / Rematar vida baja |
+| **Estocada Pesada** | Alto | Lento | Castigar fallos / Iniciar un enfrentamiento |
+| **Puñalada por la Espalda** | Letal | Instantáneo | Sigilo / Flanquear objetivos distraídos |
+| **Parada (Parry)** | Ninguno | Reactivo | Desviar ataques entrantes para aturdir |
+
+<Callout type="tip" title="Consejo Pro">
+Apunta siempre a la zona de la cabeza o el cuello. Incluso en los duelos de cuchillos, las hitboxes a menudo recompensan la precisión con multiplicadores de daño más altos o potencial de muerte instantánea dependiendo de las reglas específicas del modo de juego.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Arquetipos de Armas y Comparación Táctica">
+
+La diversidad en la **jugabilidad de Knife Duels** a menudo proviene de la variedad de hojas disponibles para el jugador. Mientras que un cuchillo de combate estándar es equilibrado, las armas especializadas como los karambits o los cuchillos mariposa pueden ofrecer diferentes conjuntos de animaciones que pueden confundir a un ojo no entrenado. Elegir la herramienta adecuada depende de tu estilo de combate preferido.
+
+<CardGrid cols={3}>
+  <Card title="El Agresor">
+    - **Arma**: Bowie Táctico
+    - **Enfoque**: Alcance máximo y daño de alto impacto.
+    - **Estrategia**: Forzar intercambios y usar el alcance superior para golpear primero.
+  </Card>
+  <Card title="El Técnico">
+    - **Arma**: Karambit
+    - **Enfoque**: Velocidad y ataques de seguimiento rápidos.
+    - **Estrategia**: Entrar en la guardia del oponente y abrumarlo.
+  </Card>
+  <Card title="El Fantasma">
+    - **Arma**: Estilete
+    - **Enfoque**: Estocadas precisas y alta movilidad.
+    - **Estrategia**: Usar tácticas de golpear y huir para desangrar al oponente.
+  </Card>
+</CardGrid>
+
+Más allá de las estadísticas físicas, la "señal" visual de un arma es crucial. Una hoja más grande es más fácil de rastrear, mientras que una hoja más pequeña y oscura podría ser más difícil de ver en áreas del mapa con poca luz. Los jugadores exitosos a menudo seleccionan skins que proporcionan una ventaja psicológica o un mejor camuflaje dentro del entorno de la arena.
+
+| Atributo | Hoja Ligera | Hoja Pesada | Hoja Equilibrada |
+| :--- | :--- | :--- | :--- |
+| **Velocidad de Movimiento** | **105%** | 95% | 100% |
+| **Retraso de Ataque** | **Corto** | Largo | Medio |
+| **Duración del Aturdimiento** | Baja | **Alta** | Media |
+| **Techo de Habilidad** | Alto | Moderado | Bajo |
+
+<Callout type="warning" title="Advertencia">
+Evita "spamear" el botón de ataque. Cada clic aumenta tu tiempo de recuperación, dejándote vulnerable a un contraataque si no logras acertar el golpe.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Maestría del Movimiento y Tácticas de Espaciado">
+
+El movimiento representa el 70% de la batalla en la **jugabilidad de Knife Duels**. Si no puedes controlar la distancia entre tú y tu enemigo, ya has perdido. Las técnicas de movimiento avanzado te permiten manipular tu hitbox, haciendo que sea significativamente más difícil para el oponente asestar un golpe limpio.
+
+**Técnicas Clave de Movimiento:**
+- **Counter-Strafing**: Tocar la tecla de movimiento opuesta para detenerse instantáneamente y realizar un golpe de precisión.
+- **Agacharse (Crouch-Ducking)**: Bajar tu perfil justo cuando el oponente lanza un tajo a la cabeza.
+- **Ametrallamiento Circular (Circle Strafing)**: Moverse en un arco cerrado alrededor del oponente para permanecer fuera de su campo de visión.
+
+| Acción de Movimiento | Ventaja | Factor de Riesgo |
+| :--- | :--- | :--- |
+| **Esprint-Estocada** | Cierra la brecha instantáneamente | Recuperación alta si se falla |
+| **Salto-Tajo** | Confunde la altura de la hitbox | Arco de caída predecible |
+| **Retroceder** | Atrae al oponente hacia adelante | Puede ser acorralado fácilmente |
+| **Paso Lateral** | Evita estocadas lineales | Requiere una sincronización perfecta |
+
+<Callout type="success" title="Nota de Estrategia">
+Usa el entorno a tu favor. Los pasillos estrechos favorecen las armas de estocada, mientras que los patios abiertos permiten el movimiento circular requerido por los atacantes de alta velocidad.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progresión de Entrenamiento Paso a Paso">
+
+Convertirse en un experto en la **jugabilidad de Knife Duels** requiere un enfoque estructurado de práctica. No puedes simplemente saltar a partidas de alto rango y esperar ganar por suerte. Sigue esta progresión para construir una base sólida.
+
+<Steps>
+  <Step num="1" title="Conciencia de la Hitbox">
+    Entra en una sala privada y practica atacando objetos estacionarios. Aprende exactamente dónde conecta tu hoja a la máxima distancia posible.
+  </Step>
+  <Step num="2" title="Entrenamiento de Reacción">
+    Usa un bot o un amigo para practicar las paradas. Céntrate en la animación del brazo del oponente en lugar de su hoja para anticipar el golpe antes.
+  </Step>
+  <Step num="3" title="Ejercicios de Movimiento">
+    Practica "boxeo de sombra": muévete por un mapa manteniendo una distancia específica de las paredes, simulando un duelo contra un enemigo invisible.
+  </Step>
+  <Step num="4" title="Evaluación de Combate en Vivo">
+    Graba tus partidas. Analiza por qué moriste: ¿fue un error de espaciado, una parada fallida o un patrón de movimiento predecible?
+  </Step>
+</Steps>
+
+<Callout type="info" title="Visión de Experto">
+La mayoría de los jugadores entran en pánico cuando su salud es baja. Entrenarte para mantener la calma y buscar una oportunidad de parada durante situaciones de poca vida te hará ganar más duelos que la desesperación agresiva.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estrategias Competitivas Avanzadas para 2026">
+
+In el meta de 2026, la **jugabilidad de Knife Duels** ha evolucionado hacia una partida de ajedrez a alta velocidad. Los mejores jugadores utilizan el "flick-baiting", donde miran intencionadamente hacia otro lado o inician un movimiento en una dirección solo para girar bruscamente y atacar. Esto obliga al oponente a comprometerse con una acción defensiva demasiado pronto.
+
+| Nombre de la Estrategia | Ejecución | Contraataque |
+| :--- | :--- | :--- |
+| **El Engaño y Cambio** | Fingir una retirada, luego estocada de 180 grados | Mantener la distancia, no perseguir |
+| **La Tortuga** | Centrarse totalmente en paradas y contraataques | Usar ataques pesados para romper la guardia |
+| **El Torbellino** | Ataques constantes con saltos y giros | Agacharse y golpear las piernas |
+| **La Sombra** | Mantenerse directamente detrás del oponente | Giros de 180 grados con alta sensibilidad |
+
+La guerra psicológica también es un factor importante. Si ganas consistentemente las dos primeras rondas de un duelo, el oponente a menudo se volverá excesivamente agresivo o excesivamente defensivo. Reconocer este cambio en su "estado mental" te permite ajustar tus tácticas en consecuencia.
+
+<Callout type="tip" title="Consejo Pro">
+Si un oponente está haciendo "la tortuga" (jugando puramente defensivo), intenta usar "golpes fantasma": atacar al aire justo frente a ellos para provocar su parada, y luego castigarlos mientras su parada está en tiempo de reutilización.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusión y Lista de Verificación del Jugador">
+
+Dominar la **jugabilidad de Knife Duels** es un viaje de disciplina y refinamiento mecánico. Al centrarte en los aspectos del combate basados en datos —alcance, velocidad y recuperación— te alejas del caos del "rango hierro" y entras en el reino de la ejecución profesional. Mantén tus hojas afiladas y tu mente aún más.
+
+<Checklist
+  id="daily-duel-goals"
+  title="Lista de Verificación de Maestría Diaria:"
+  items={[
+    "Completar 15 minutos de ejercicios de espaciado en el campo de práctica",
+    "Lograr con éxito 10 paradas en una partida en vivo",
+    "Ganar un duelo contra un oponente de mayor rango usando tácticas de engaño",
+    "Revisar una partida grabada para identificar un error de movimiento",
+    "Experimentar con un nuevo arquetipo de hoja durante al menos 3 partidas"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la estadística más importante en la jugabilidad de Knife Duels?",
+    answer: "El alcance (Reach) se considera generalmente la estadística más vital. Poder golpear a tu oponente mientras permaneces fuera de su zona de ataque proporciona una red de seguridad masiva."
+  },
+  {
+    question: "¿Cómo contrarresto a alguien que solo spamea el botón de ataque?",
+    answer: "El mejor contraataque para el spam es la mecánica de parada (parry). Sincroniza tu bloqueo con su ritmo, lo que los aturdirá y permitirá un ataque pesado garantizado."
+  },
+  {
+    question: "¿Afecta la altura del personaje o la elección de skin al duelo?",
+    answer: "En la mayoría de las versiones competitivas de duelos de cuchillos, las hitboxes están estandarizadas. Sin embargo, las skins más oscuras pueden proporcionar una ligera ventaja de visibilidad en ciertas ubicaciones del mapa."
+  },
+  {
+    question: "¿Por qué sigo perdiendo incluso cuando golpeo primero?",
+    answer: "Podrías estar sufriendo de 'negación de intercambio'. Si tu oponente tiene un arma de mayor daño o golpea una hitbox más crítica (como la cabeza), ganará el intercambio incluso si golpea un poco más tarde."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Knife Duels 2026: Script Features & Combat Tactics",
+  description: "Discover the latest Knife Duels 2026 features, including script showcases, combat tactics, and progression strategies for competitive play.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Knife+Duels+2026",
+  date: "2026-07-20",
+  author: "knife duels Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Knife duels 2026** introduces advanced physics-based combat mechanics that require precise timing, spacing, and character movement configuration.
+- **Scripting features** such as silent aim and ESP alter the competitive balance but carry significant account suspension risks.
+- **Optimal spacing** and utilizing defensive bait-and-switch tactics remain the most reliable ways to win high-rank matches.
+- **Regular calibration** of mouse sensitivity and network settings is critical for accurate knife hit registration.
+- **Ranked progression** requires consistent wins against increasingly skilled opponents who exploit advanced movement mechanics.
+</Callout>
+
+<Section icon={Swords} title="Knife Duels 2026: Script Showcase & Key Features">
+
+The competitive scene of this arena-based combat game has seen significant changes. Players constantly look for ways to optimize their performance, leading to the rise of third-party modifications. These tools modify client-side behavior to automate actions and display hidden information, altering the dynamic of high-stakes matches.
+
+Understanding these features is essential for recognizing automated behavior in opponents and optimizing your own awareness. The primary modifications focus on targeting assistance, visual overlays, and movement physics manipulation.
+
+**Video Highlights:**
+- **Silent Aim Demonstration**: Shows instant targeting redirection when an opponent peeks.
+- **ESP Overlay**: Displays enemy positioning through solid structures in real time.
+- **Movement Modifications**: Showcases velocity changes and automated positioning adjustments.
+
+<YouTubeEmbed videoId="Z-P7nQBlIrA" title="*NEW* Knife Duels Script - Silent Aim, ESP, Movement & More" />
+
+The mechanics behind these features rely on reading game memory and injecting inputs. Silent aim works by intercepting the attack packet and changing the target vector to match the opponent's hitbox, bypassing the need to manually align the crosshair. Wall checks ensure the script does not attempt to strike through solid walls, preventing obvious detection by spectator systems.
+
+| Feature | Description | Detection Risk |
+| **Silent Aim** | Redirects attacks to target hitboxes automatically | High |
+| **ESP** | Displays player outlines and distance vectors | Low |
+| **Wall Check** | Prevents hits through solid obstacles | Medium |
+| **Movement** | Enhances velocity and slide mechanics | High |
+
+<Callout type="warning" title="Account Safety Warning">
+Using third-party scripts violates the terms of service. Automated detection systems frequently update to identify silent aim and movement modifications, which can lead to permanent account bans.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Core Dueling Combat Tactics">
+
+Succeeding in competitive arenas requires mastering distance control, swing timing, and weapon properties. Unlike automated scripts, human players must rely on anticipation and muscle memory to execute precise strikes. Every knife archetype has unique frame data, meaning some weapons recover faster from missed swings than others.
+
+To build a reliable defense, you must understand how to bait out an opponent's attack. By stepping into their threat range and quickly backing away, you force a missed swing, leaving them vulnerable during their recovery frames.
+
+<CardGrid cols={3}>
+  <Card title="Passive Defense">
+    - **Maintain safe distance**
+    - Focus on counter-striking
+    - Low risk of mistake
+  </Card>
+  <Card title="Aggressive Rush">
+    - **High pressure tactics**
+    - Force mistakes with movement
+    - High risk of counter-hits
+  </Card>
+  <Card title="Baiting & Countering">
+    - **Manipulate spacing**
+    - Punish recovery frames
+    - Moderate skill requirement
+  </Card>
+</CardGrid>
+
+Choosing the right weapon is the foundation of your tactical approach. Faster knives allow for quick recovery, while longer blades provide a safety margin when spacing out opponents.
+
+| Knife Type | Range | Attack Speed | Recommended Playstyle |
+| **Standard Dagger** | Medium | Fast | Balanced aggressive play |
+| **Karambit** | Short | Very Fast | Close-quarters flanking |
+| **Bowie Knife** | Long | Slow | Defensive spacing and counter-hits |
+| **Butterfly Knife** | Medium | Fast | Trick-stabs and high mobility |
+
+<Callout type="tip" title="Pro Spacing Tip">
+Keep your crosshair at chest height when using longer knives. This ensures that even if the opponent crouches, your swing arc will still connect with their hitbox.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Step-by-Step Calibration & Configuration">
+
+Achieving optimal performance requires adjusting both hardware settings and in-game parameters. High input lag or unstable frame rates can make it difficult to react to fast-moving targets. Proper calibration ensures your physical movements translate directly to the screen without delay.
+
+Follow these steps to optimize your setup for competitive play:
+
+<Steps>
+  <Step num="1" title="Optimize Input Lag">
+    Enable hardware-accelerated GPU scheduling in your operating system settings. Set your mouse polling rate to 1000Hz or higher to minimize input latency.
+  </Step>
+  <Step num="2" title="Adjust Sensitivity">
+    Configure your DPI to a level that allows for precise micro-adjustments. A lower sensitivity generally improves tracking accuracy during close-quarters duels.
+  </Step>
+  <Step num="3" title="Configure Field of View">
+    Set your in-game field of view to a value that balances peripheral vision with target size. Extremely high values can make distant opponents harder to hit.
+  </Step>
+  <Step num="4" title="Test in Private Match">
+    Join an empty server to practice movement techniques and verify that your frame rate remains stable during rapid turns and attacks.
+  </Step>
+</Steps>
+
+Network settings also play a vital role. High latency can cause hit registration issues, making it appear as though your knife passes through the opponent without dealing damage.
+
+| Setting | Value | Impact |
+| **Mouse Sensitivity** | 800 DPI / 1.2 In-game | Promotes precise tracking and micro-adjustments |
+| **Field of View (FOV)** | 95 Degrees | Maximizes peripheral vision without distorting distance |
+| **Frame Rate Limit** | Uncapped / Monitor Hz | Reduces input latency for faster reaction times |
+| **Network Interpolation** | Minimal | Ensures real-time opponent positioning on screen |
+
+<Callout type="info" title="Configuration Note">
+Always prioritize stable frame rates over visual quality. Lowering shadow resolution and particle effects can provide a significant boost to frame consistency.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Competitive Progression Milestones">
+
+Climbing the ranked ladder requires dedication, adaptability, and a deep understanding of match flow. Players must progress through various tiers by defeating opponents of similar skill levels. As you reach higher ranks, opponents will exploit advanced movement mechanics and map geometry.
+
+Tracking your progress helps identify areas that require improvement. Focus on mastering specific mechanical skills before trying to climb to the highest ranks.
+
+<Checklist
+  id="progression-goals"
+  title="Essential Milestones:"
+  items={[
+    "Unlock all standard knives to understand their range",
+    "Achieve Diamond rank to face experienced players",
+    "Master slide-jump mechanics for faster positioning",
+    "Maintain clean account standing by avoiding third-party software"
+  ]}
+/>
+
+The ranking system is designed to reward consistent performance. Winning consecutive matches increases your rating quickly, while losing matches against lower-ranked players will cause a sharp drop in points.
+
+| Tier | Points | Difficulty |
+| **Bronze to Silver** | 0 - 1500 | Easy |
+| **Gold to Platinum** | 1501 - 3000 | Moderate |
+| **Diamond to Master** | 3001 - 5000 | Hard |
+| **Grandmaster** | 5001+ | Very Hard |
+
+<Callout type="success" title="Rank Milestone Reward">
+Reaching Diamond rank unlocks exclusive cosmetic rewards and grants access to high-tier matchmaking queues where competitive integrity is prioritized.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+Understanding the rules, mechanics, and technical aspects of the game helps you avoid common pitfalls and improve your overall performance.
+
+<FAQ items={[
+  {
+    question: "How does the meta in knife duels 2026 differ from previous seasons?",
+    answer: "The current season emphasizes movement speed and recovery frame management. Heavy weapons with slow swing speeds are less dominant compared to faster, high-mobility knives like the Karambit."
+  },
+  {
+    question: "Are third-party scripts allowed in competitive tournaments?",
+    answer: "No. All third-party scripts, including silent aim, ESP, and automated movement macros, are strictly prohibited in official tournaments and ranked matchmaking."
+  },
+  {
+    question: "What is the best way to counter silent aim users?",
+    answer: "Countering automated aim requires using cover and unpredictable movement. Because scripts rely on clear line-of-sight checks, breaking visibility and engaging from behind can disrupt their targeting systems."
+  },
+  {
+    question: "How does ping affect knife hit registration?",
+    answer: "High ping causes a delay between your local swing and the server's validation. This can result in no-registration hits, where you visual connect with a target but the server registers the opponent as already out of range."
+  }
+]} />
+
+<Callout type="info" title="Community Resources">
+For official updates, balance changes, and tournament schedules, check the official developer forums and community patch notes regularly.
+</Callout>
+
+</Section>

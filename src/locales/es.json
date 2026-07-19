@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guía",
+    "weapons": "Armas",
+    "values": "Valores",
+    "crosshair": "Mira",
+    "modes": "Modos",
+    "updates": "Actualizaciones"
+  }
+}

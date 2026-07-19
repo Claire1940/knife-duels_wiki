@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Knife Duels Spielanleitung: 2026 Anfänger-Guide & Kampf-Tipps",
+  description: "Meistere Knife Duels mit unserem Experten-Guide. Erfahre alles über Kampfmechaniken, Skin-Raritäten, Zielhilfe-Einstellungen und Strategien zum Münzen-Farming für 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Knife+Duels+Gameplay+Guide",
+  date: "2026-07-20",
+  author: "knife duels Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Kern-Gameplay**: Meistere **Knife Duels**, indem du Nahkampf-Stiche mit Fernkampf-Messerwürfen in einem „First-to-Six“-Format kombinierst.
+- **Kampfmechaniken**: Nutze die **Zielhilfe (Aim Assist)** für präzise Würfe oder deaktiviere sie für die volle manuelle Kontrolle.
+- **Wirtschaftssystem**: Verdiene Münzen durch Kills und Siege, um **Waffenkisten** freizuschalten, die von gewöhnlichen (Common) bis hin zu mythischen (Mythic) Raritäten reichen.
+- **Heilungssystem**: Spieler **heilen automatisch** über Zeit, was den Rückzug aus Kämpfen zu einer lebenswichtigen Überlebensstrategie macht.
+- **Siegbedingung**: Matches sind in der Regel als **Best of 11** strukturiert, wobei sechs Rundensiege für den Gesamtsieg erforderlich sind.
+</Callout>
+
+<Section icon={Map} title="Erste Schritte mit den Grundlagen von Knife Duels">
+
+Knife Duels ist ein schnelles, kompetitives Roblox-Spiel, das auf Präzision, Timing und Bewegung setzt. Im Gegensatz zu traditionellen Shootern konzentriert sich dieser Titel vollständig auf den Messerkampf und lässt sich von beliebten Spielen wie Sniper Duels und Rivals inspirieren. Um zu verstehen, **wie man Knife Duels spielt**, ist ein solides Verständnis der zwei primären Angriffsmodi erforderlich: Stechen und Werfen. Obwohl das Spiel oberflächlich simpel erscheint, schaffen Nuancen im Hitbox-Management und der Bewegungsgeschwindigkeit eine hohe spielerische Tiefe für kompetitive Spieler.
+
+**Video-Highlights:**
+- **Kampf-Vielseitigkeit**: Lerne, wann du zwischen Nahkampf-Stichen und Fernkampf-Messerwürfen wechseln solltest.
+- **Kistenöffnungen**: Ein Blick auf die Skin-Wirtschaft, einschließlich des Prozesses zum Freischalten von mythischen und geheimen Gegenständen.
+- **Match-Struktur**: Übersicht über das rundenbasierte System und wie man durch konstante Leistung einen Sieg erringt.
+- **Nutzen der Zielhilfe**: Demonstration, wie sich die Lock-on-Mechanik auf das Gameplay für neue und erfahrene Spieler auswirkt.
+
+<YouTubeEmbed videoId="g5sp0pSYhIM" title="Dieses neue KNIFE DUELS Spiel ist VERRÜCKT! (ROBLOX)" />
+
+<Callout type="tip" title="Tipp zur Ersteinrichtung">
+Bevor du dich in dein erstes Duell stürzt, solltest du im Einstellungsmenü deine Empfindlichkeit (Sensitivity) anpassen. Da das Spiel stark auf Flick-Shots bei Messerwürfen angewiesen ist, hilft eine höhere Empfindlichkeit oft dabei, sich schnell bewegende Gegner zu verfolgen.
+</Callout>
+
+| Feature | Beschreibung | Wichtigkeit |
+|---------|-------------|------------|
+| **Siegbedingung** | Erreiche zuerst 6 Rundensiege | Hoch |
+| **Angriffsmodi** | Stich (Nahkampf) und Wurf (Fernkampf) | Kritisch |
+| **Heilung** | Automatische Regeneration über Zeit | Mittel |
+| **Währung** | Münzen pro Kill/Sieg/Quest | Hoch |
+| **Anpassung** | Messer-Skins und End-Animationen | Niedrig (Kosmetisch) |
+
+</Section>
+
+<Section icon={Swords} title="Kampfmechaniken und Hitboxen meistern">
+
+Das Herzstück von **Knife Duels** liegt in der Interaktion zwischen deiner Waffe und der Hitbox des Gegners. Das Spiel verfügt über eine einzigartige Physik-Engine, bei der geworfene Messer eine Flugzeit und einen Abfall (Drop) haben, was von den Spielern verlangt, Schüsse „vorzuhalten“. Das Stechen hingegen erfordert unmittelbare Nähe, bietet aber eine schnellere Hinrichtung, wenn der Gegner unvorbereitet erwischt wird.
+
+Eines der am meisten diskutierten Features in der Community ist die **Zielhilfe (Aim Assist)**. Für Anfänger hilft diese Mechanik dabei, Ziele zu erfassen, was Würfe konsistenter macht. Erfahrene Spieler finden jedoch oft, dass der Lock-on einschränkend sein kann, wenn man versucht, die unvorhersehbaren Bewegungen eines Gegners vorauszuahnen.
+
+| Angriffstyp | Reichweite | Schadenspotenzial | Beste Verwendung |
+|-------------|------------|-------------------|------------------|
+| **Stich** | Sehr kurz | Hoch / Sofort | Wenn ein Gegner einen Wurf verfehlt und nachlädt |
+| **Schnellwurf** | Mittel | Moderat | Schnellfeuer, um den Gegner unter Druck zu setzen |
+| **Gezielter Wurf** | Lang | Hoch / Headshot | Snipen von Gegnern über die Karte oder hinter Deckung |
+
+<Callout type="warning" title="Hitbox-Bewusstsein">
+Die Hitboxen für Stiche können sich aufgrund von Server-Latenz gelegentlich inkonsistent anfühlen. Wenn du Lag hast, priorisiere das Werfen von Messern gegenüber dem Nahkampf, um „Geisterstiche“ zu vermeiden, bei denen deine Klinge zu treffen scheint, aber keinen Schaden registriert.
+</Callout>
+
+### Das Zielhilfe-System verstehen
+Die Zielhilfe in Knife Duels ist im Vergleich zu anderen Roblox-Duellspielen bemerkenswert stark. Sie bietet einen „magnetischen“ Zug in Richtung des Torsos oder Kopfes des Gegners. Während dies hervorragend zum Lernen ist, beinhaltet das Meistern des Spiels zu wissen, wann man sie für kreativere Projektilbahnen ausschaltet.
+
+| Einstellung | Auswirkung auf das Gameplay | Empfohlen für |
+|-------------|-----------------------------|---------------|
+| **Zielhilfe AN** | Fixiert den Cursor in der Nähe von Zielen | Anfänger / Mobile-Spieler |
+| **Zielhilfe AUS** | Volle manuelle Kontrolle über den Bogen | Fortgeschrittene / Profis |
+| **Hohe Empfindlichkeit** | Schnellere 180-Grad-Drehungen | Aggressive „Rush“-Spielstile |
+
+</Section>
+
+<Section icon={Sparkles} title="Skin-Wirtschaft und Kisten-Rarität">
+
+Der Fortschritt in Knife Duels ist weitgehend an sein robustes Skin-System gebunden. Spieler sammeln Münzen, um Kisten zu kaufen, die verschiedene Stufen von Waffen-Ästhetiken enthalten. Obwohl diese Skins keine statistischen Vorteile bieten, sind sie das primäre Symbol für Prestige in der Arena.
+
+<CardGrid cols={3}>
+  <Card title="Gewöhnlich / Selten">
+    - **Kosten**: Niedrigster Einstiegspunkt
+    - **Beispiele**: Spider, Basic Steel
+    - **Wiederverkaufswert**: 10 - 50 Münzen
+  </Card>
+  <Card title="Episch / Legendär">
+    - **Optik**: Partikeleffekte
+    - **Beispiele**: Blood, Neon Edge
+    - **Wiederverkaufswert**: 100 - 500 Münzen
+  </Card>
+  <Card title="Mythisch / Geheim">
+    - **Seltenheit**: Extrem niedrige Droprate
+    - **Optik**: Einzigartige Animationen
+    - **Wiederverkaufswert**: 1.000+ Münzen
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Farming-Strategie">
+Konzentriere dich auf den Abschluss der täglichen 75-Kill-Quests. Diese bieten einen erheblichen Münz-Boost (ca. 400 Münzen), was es dir ermöglicht, mindestens zwei hochrangige Kisten pro Tag ohne langes Grinden zu öffnen.
+</Callout>
+
+| Raritätsstufe | Ungefähre Drop-Rate | Durchschnittlicher Verkaufswert |
+|---------------|---------------------|---------------------------------|
+| **Gewöhnlich** | 60% | 10 Münzen |
+| **Selten** | 25% | 35 Münzen |
+| **Episch** | 10% | 100 Münzen |
+| **Mythisch** | 4% | 1.000 Münzen |
+| **Geheim** | <1% | Variabel / Hoch |
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Anleitung zum Gewinnen von Matches">
+
+Ein Match konsistent zu gewinnen erfordert mehr als nur gutes Zielen; es erfordert taktische Positionierung und Ressourcenmanagement. Befolge diese Schritte, um deine Gewinnrate in der Meta von 2026 zu verbessern.
+
+<Steps>
+  <Step num="1" title="Gegnerbewegung analysieren">
+    Beobachte in der ersten Runde, ob dein Gegner häufig springt oder sich in einem vorhersehbaren Muster seitlich bewegt (Strafing). Das sagt dir, wohin du deinen ersten Wurf zielen musst.
+  </Step>
+  <Step num="2" title="Die Anhöhe kontrollieren">
+    Die meisten Karten bieten Vertikalität. Auf Kisten oder Vorsprüngen zu stehen macht es für Gegner schwieriger, deinen Kopf zu treffen, während du einen besseren Winkel für Würfe nach unten hast.
+  </Step>
+  <Step num="3" title="Gesundheit verwalten">
+    Wenn du getroffen wirst, gerate nicht in Panik. Nutze die Umgebung, um die Sichtlinie zu unterbrechen. Da du automatisch heilst, kann ein 5-sekündiger Rückzug den Kampf zu deinen Gunsten zurücksetzen.
+  </Step>
+  <Step num="4" title="Ködern und Zustechen">
+    Wirf ein Messer absichtlich daneben, um den Gegner dazu zu verleiten, dich zu stürmen. Sobald er die Distanz verringert, wechsle zum Nahkampf und führe einen schnellen Stich aus.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Kartenbewusstsein">
+Behalte immer die „Out of Bounds“-Zonen im Auge. Einige Karten haben schmale Wege, auf denen ein einziger Fehltritt zum Rundenverlust führt, unabhängig von deiner aktuellen Gesundheit.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fortschrittsziele und tägliche Checkliste">
+
+Um in der sich ständig weiterentwickelnden Welt von Knife Duels wettbewerbsfähig zu bleiben, sollten Spieler bestimmte Meilensteine anstreben. Ein strukturierter Ansatz für deine täglichen Sessions stellt sicher, dass du die besten Skins und den höchsten Rang in der Bestenliste hast.
+
+<Checklist
+  id="daily-pro-routine"
+  title="Wichtige tägliche Aufgaben:"
+  items={[
+    "Schließe den 75-Kill-Meilenstein für Bonusmünzen ab",
+    "Öffne mindestens eine Waffenkiste, um nach Mythischen zu jagen",
+    "Gewinne 5 Matches in Folge, um deinen Streak-Bonus zu halten",
+    "Übe 15 Minuten lang manuelles Zielen (Zielhilfe AUS)",
+    "Prüfe den Shop nach zeitlich begrenzten Rotations-Skins"
+  ]}
+/>
+
+| Meilenstein | Belohnung / Vorteil | Schwierigkeit |
+|-------------|---------------------|---------------|
+| **Erste 10 Siege** | Bronze-Abzeichen freischalten | Einfach |
+| **50 Headshots** | Titel „Präzisionsmeister“ | Mittel |
+| **1.000 Münzen** | Massen-Kistenöffnung | Mittel |
+| **Mythischer Drop** | Hoher Wiederverkaufswert | Schwer (RNG) |
+
+<Callout type="tip" title="Soziales Spiel">
+Das Spielen im 2v2-Modus mit einem koordinierten Partner ist der schnellste Weg, um Siege zu farmen. Konzentriert das Feuer auf ein Ziel, um das Match schnell in einen 2v1-Vorteil zu verwandeln.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Ist Knife Duels Pay-to-Win?",
+    answer: "Nein, das Spiel ist fähigkeitsbasiert. Du kannst zwar Münzen kaufen, um Kisten und Skins zu erwerben, aber diese Gegenstände sind rein kosmetisch und erhöhen weder den Schaden noch die Bewegungsgeschwindigkeit."
+  },
+  {
+    question: "Wie heile ich mich mitten in einem Duell?",
+    answer: "Die Heilung erfolgt automatisch. Wenn du einige Sekunden lang keinen Schaden erleidest, füllt sich dein Gesundheitsbalken wieder auf. Nutze Deckung, um diesen Prozess zu erleichtern."
+  },
+  {
+    question: "Was ist der schnellste Weg, um Münzen zu verdienen?",
+    answer: "Das Abschließen täglicher Quests, wie z. B. 75 Kills zu erzielen, ist die effizienteste Methode. Zusätzlich bietet das konsistente Gewinnen von Matches einen stetigen Strom an Währung."
+  },
+  {
+    question: "Kann ich die Zielhilfe deaktivieren?",
+    answer: "Ja, du kannst die Zielhilfe im Einstellungsmenü umschalten. Viele Top-Spieler ziehen es vor, sie auszuschalten, um eine bessere Kontrolle über die Flugbahn ihres Messers zu haben."
+  }
+]} />
+
+<Callout type="warning" title="Sicherheitshinweis">
+Sei vorsichtig bei Spielern, die „kostenlose mythische Skins“ über externe Links anbieten. Handle immer über das offizielle In-Game-Interface, um sicherzustellen, dass dein Konto und deine Gegenstände sicher bleiben.
+</Callout>
+
+</Section>

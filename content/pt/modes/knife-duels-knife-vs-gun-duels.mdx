@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Duelos de Faca em Knife Duels: Guia de Combate e Movimentação",
+  description: "Domine o espaçamento, a movimentação e as estratégias táticas em duelos de faca contra arma no Roblox Knife Duels. Aprenda a fechar a distância e vencer todas as partidas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Knife+vs+Gun+Duels",
+  date: "2026-07-20",
+  author: "Equipe da Wiki de Knife Duels"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Dinâmica Primária**: Navegar no espaçamento intenso dos **duelos de faca contra arma em Knife Duels** exige uma movimentação impecável.
+- **Mecânica Central**: Use padrões de esquiva erráticos e saltos para atrapalhar a trajetória de mira dos oponentes de longo alcance.
+- **Melhor Estratégia**: Feche a distância usando armas de alta mobilidade, como a Katana ou a Butterfly Knife.
+- **Dica Crítica**: Utilize a tecla Ctrl no PC para bloquear ataques recebidos e minimizar o dano durante sua aproximação.
+- **Melhor Escolha**: A Katana continua sendo a arma principal para contra-ataques corpo a corpo de longo alcance devido ao seu alcance superior.
+</Callout>
+
+<Section icon={Swords} title="Entendendo a Dinâmica de Duelos de Faca vs. Arma em Knife Duels">
+
+Nos jogos competitivos, o confronto clássico entre armas brancas de curto alcance e armas de projéteis de longo alcance representa um dos quebra-cabeças táticos mais estimulantes. No Roblox Knife Duels, essa dinâmica é amplificada pela movimentação de alta velocidade e pelo ritmo acelerado do combate. Embora o foco principal seja o combate lâmina contra lâmina, entender como navegar em um cenário de **duelos de faca contra arma** é crucial para o domínio de alto nível. Jogadores frequentemente encontram arremessáveis, ferramentas secundárias baseadas em projéteis ou oponentes utilizando opções de alcance extremo que imitam ameaças de longo alcance.
+
+Para sobreviver a esses encontros, você deve analisar as distâncias de engajamento e entender a "zona de perigo" teórica. Nas táticas do mundo real, o Drill de Tueller estabelece que um atacante armado com uma lâmina pode cobrir uma distância de cerca de 5 a 6 metros no tempo que um oponente leva para sacar e disparar uma arma de longo alcance. No Roblox Knife Duels, esse princípio se traduz diretamente no espaçamento. Se você estiver fora desse alcance, a vantagem é de quem ataca à distância; uma vez que você cruza esse limite, a vantagem muda drasticamente para o combatente corpo a corpo.
+
+| Categoria de Alcance | Distância (Studs) | Nível de Ameaça | Ação Tática |
+| :--- | :--- | :--- | :--- |
+| Longo Alcance | 30+ Studs | Baixo | Utilize cobertura e movimentação em ziguezague |
+| Médio Alcance | 15-30 Studs | Alto | Isco ataques de projéteis e corra para frente |
+| Curto Alcance | 0-15 Studs | Crítico | Execute golpes rápidos e esquivas circulares |
+
+<Callout type="warning" title="Perigos da Movimentação Linear">
+Nunca corra diretamente em direção a um oponente que possui armas de projéteis ou alcance superior. Caminhos lineares tornam a caixa de colisão (hitbox) do seu personagem altamente previsível, permitindo que os inimigos cronometrem facilmente seus ataques e derrotem você antes que possa golpear.
+</Callout>
+
+Aplicar essa consciência espacial permite que os jogadores transitem da sobrevivência defensiva para o domínio agressivo. Ao tratar cada engajamento como um risco calculado, você pode induzir o oponente a gastar seu projétil principal ou golpe pesado, deixando-o completamente vulnerável a um contra-ataque rápido.
+
+</Section>
+
+<Section icon={Trophy} title="Seleção de Armas e Tier List para Fechar a Distância">
+
+Sua escolha de arma dita sua velocidade de movimento, velocidade de ataque e alcance máximo. Ao tentar fechar a distância contra um oponente que pode atacar de longe, cada frame conta. Armas de Nível S, como a Katana e a Butterfly Knife, são muito valorizadas no meta competitivo porque oferecem a combinação perfeita de alcance e mobilidade.
+
+A Katana oferece um arco de golpe generoso, permitindo que você atinja oponentes mesmo que seu espaçamento esteja um pouco impreciso. Enquanto isso, a Butterfly Knife apresenta frames de recuperação de animação incrivelmente rápidos, permitindo que você transite de um bloqueio defensivo diretamente para uma corrida agressiva. Usar armas de níveis inferiores, como o Cutelo ou a Faca Básica, torna o fechamento da distância significativamente mais difícil, já que seus tempos de recuperação lentos ou alcance curto deixam você vulnerável a contra-ataques durante a aproximação.
+
+<CardGrid cols={3}>
+  <Card title="Katana (Nível S)">
+    - **Alcance Superior**: Possui a maior hitbox corpo a corpo no meta atual.
+    - **Velocidade de Ataque Rápida**: Permite que você golpeie primeiro em encontros de curta distância.
+    - **Fechamento de Distância**: Ideal para punir jogadores de longo alcance que calculam mal o espaçamento.
+  </Card>
+  <Card title="Butterfly Knife (Nível S)">
+    - **Alta Mobilidade**: Oferece excelente recuperação de animação para reposicionamento rápido.
+    - **Animações Rápidas**: Perfeita para executar contra-ataques rápidos e imprevisíveis.
+    - **Potencial de Outplay**: Permite que jogadores altamente habilidosos entrem e saiam do perigo.
+  </Card>
+  <Card title="Adaga (Nível A)">
+    - **Velocidade Extrema**: Possui a animação de golpe mais rápida em combate de curta distância.
+    - **Alcance Curto**: Requer espaçamento preciso para acertar golpes efetivamente.
+    - **Estilo de Jogo Agressivo**: Melhor para jogadores que se destacam em esquivar e flanquear.
+  </Card>
+</CardGrid>
+
+| Arma | Nível | Alcance | Velocidade de Golpe | Papel Principal |
+| :--- | :--- | :--- | :--- | :--- |
+| Katana | S | Excelente | Muito Rápida | Fechar distância e vantagem de alcance |
+| Butterfly Knife | S | Bom | Extremamente Rápida | Outplays de alta mobilidade e recuperação |
+| Adaga | A | Curto | Extremamente Rápida | Agressividade em curta distância e velocidade |
+| Facão | A | Moderado | Rápida | Estilo de jogo ofensivo equilibrado |
+| Cutelo | B | Moderado | Lenta | Punições de alto dano e golpes pesados |
+| Faca Básica | C | Curto | Moderada | Ferramenta de treinamento para iniciantes |
+
+<Callout type="success" title="Recomendação de Meta">
+Equipar a Katana ou a Butterfly Knife aumenta significativamente suas opções de combate. O alcance adicional da Katana permite que você atinja os oponentes antes que eles entrem em seu alcance ideal de disparo ou arremesso, mudando o rumo do duelo.
+</Callout>
+
+Entender esses atributos de arma é apenas metade da batalha. Para dominar a arena, você deve combinar sua escolha de arma com mecânicas de movimento de alto nível e disciplinadas que explorem as fraquezas dos combatentes de longo alcance.
+
+</Section>
+
+<Section icon={Map} title="Guia de Movimentação Passo a Passo para Counterar Ameaças de Longo Alcance">
+
+Fechar a distância contra um jogador de longo alcance requer uma abordagem sistemática e disciplinada. Você não pode simplesmente segurar a tecla de movimento para frente e esperar pelo melhor. Um oponente habilidoso preverá facilmente sua trajetória e acertará seus tiros ou arremessos. Em vez disso, você deve implementar uma abordagem tática estruturada que combina iscas, movimentação errática e execução precisa.
+
+Ao utilizar os atalhos e entradas corretos, jogadores de PC e dispositivos móveis podem maximizar sua eficiência de movimento. O objetivo é tornar a hitbox do seu personagem o mais imprevisível possível, forçando o oponente a errar seu ataque inicial e criando uma janela de vulnerabilidade que você pode explorar.
+
+<Steps>
+  <Step num="1" title="Isca e Avaliação">
+    Identifique o tipo de arma do oponente e observe seu ritmo de arremesso ou tiro. Fique no limite do alcance efetivo dele para atrair seu ataque principal sem se colocar em perigo imediato.
+  </Step>
+  <Step num="2" title="Padrões de Esquiva Erráticos">
+    Combine esquivas rápidas para a esquerda e para a direita com saltos para quebrar a mira do oponente. Evite padrões de salto previsíveis, já que jogadores experientes podem rastrear e punir facilmente quem pula com frequência em linha reta.
+  </Step>
+  <Step num="3" title="A Aproximação com Corrida">
+    Ative sua mecânica de corrida (Shift no PC) para diminuir rapidamente a distância assim que o oponente errar o ataque ou entrar em uma animação de recuperação. Mantenha um caminho diagonal em vez de correr em linha reta.
+  </Step>
+  <Step num="4" title="Execução e Defesa">
+    Desfira um golpe primário rápido (LMB no PC) assim que estiver dentro do alcance da arma. Siga imediatamente segurando seu bloqueio defensivo (Ctrl no PC) para mitigar quaisquer contra-ataques imediatos.
+  </Step>
+</Steps>
+
+| Plataforma | Atalho / Entrada | Ação de Combate | Aplicação Tática |
+| :--- | :--- | :--- | :--- |
+| PC | Shift | Corrida | Fechar distância rapidamente e perseguir alvos |
+| PC | Espaço | Pulo | Evadir ataques baixos e interromper linhas de mira |
+| PC | Ctrl | Bloqueio | Mitigar dano recebido e preparar contra-ataques |
+| PC | Botão Esquerdo (LMB) | Ataque Primário | Golpear com precisão ao estar no alcance |
+| Mobile | Joystick Virtual | Movimentação | Manter esquivas erráticas contínuas |
+| Mobile | Botão de Ataque | Swing da Faca | Tocar rapidamente durante combates de curta distância |
+
+<Callout type="tip" title="Espaçamento Vertical">
+Embora a corrida seja sua principal ferramenta para fechar a distância, não negligencie o salto. Pular durante a corrida altera sua hitbox vertical, tornando incrivelmente difícil para oponentes de longo alcance acertarem tiros precisos na cabeça ou projéteis diretos.
+</Callout>
+
+Dominar essa sequência garante que você dite o ritmo do engajamento. Ao forçar o jogador de longo alcance a reagir ao seu movimento em vez de deixá-lo controlar a distância, você o coloca em uma desvantagem psicológica e tática severa.
+
+</Section>
+
+<Section icon={Target} title="Estratégias de Combate Avançadas e Modos de Jogo">
+
+Uma vez que você tenha dominado as mecânicas de movimento básicas, deve aprender a aplicá-las em diferentes modos de jogo. Cada ambiente em Knife Duels apresenta desafios únicos. Em um Duelo 1v1 estruturado, você pode focar inteiramente nos hábitos e no tempo de um único oponente. No entanto, em uma partida caótica de Free-For-All (FFA), você deve monitorar constantemente seus arredores para evitar ser pego de surpresa por um terceiro atacante enquanto está ocupado fechando a distância contra seu alvo principal.
+
+Duelos em Equipe introduzem outra camada de complexidade, exigindo que você coordene com seus companheiros. Nessas partidas, jogadores de alta mobilidade podem servir como isca, atraindo a atenção e os projéteis da equipe inimiga, enquanto os causadores de dano pesado flanqueiam pelos lados para garantir eliminações limpas.
+
+<Checklist
+  id="combat-milestones"
+  title="Marcos Essenciais de Combate:"
+  items={[
+    "Dominar o movimento de esquiva errática para desviar de projéteis consistentemente",
+    "Aprender o alcance máximo exato de ataque da Katana e Butterfly Knife",
+    "Bloquear com sucesso cinco ataques inimigos consecutivos usando a tecla Ctrl",
+    "Vencer três partidas 1v1 consecutivas contra oponentes de alta habilidade",
+    "Desbloquear pelo menos uma skin de arma cosmética de Nível S através da progressão"
+  ]}
+/>
+
+| Modo de Jogo | Foco do Jogador | Ameaça Principal | Estratégia Vencedora |
+| :--- | :--- | :--- | :--- |
+| Duelo 1v1 | Espaçamento & Timing | Duelistas de alta habilidade | Iscar ataques, punir erros e controlar o centro |
+| Free-For-All | Consciência do Mapa | Ser atacado por terceiros | Eliminar alvos fracos e evitar áreas lotadas |
+| Duelo em Equipe | Coordenação | Oponentes flanqueando | Proteger aliados e coordenar golpes focados |
+| Treinamento | Refinamento de Habilidade | Nenhuma | Praticar timing, bloqueios e entradas de movimento |
+
+<Callout type="info" title="Geometria do Mapa">
+A geometria do mapa é sua melhor amiga em modos multiplayer. Use paredes, pilares e obstáculos para quebrar a linha de visão, forçando os oponentes de longo alcance a entrar na sua zona de conforto corpo a corpo, onde você detém a vantagem absoluta.
+</Callout>
+
+Ao adaptar seu estilo de jogo às regras e layouts específicos de cada modo, você garante um desempenho consistente, independentemente do cenário tático. Lembre-se sempre de priorizar a sobrevivência e o posicionamento em vez de ataques gananciosos de baixa probabilidade.
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+A seção a seguir aborda as dúvidas mais comuns dos jogadores sobre espaçamento de combate, atributos de armas e mecânicas defensivas em Knife Duels.
+
+<FAQ items={[
+  {
+    question: "Como venço um cenário de duelo de faca contra arma?",
+    answer: "Para vencer um duelo de faca contra arma, você deve focar totalmente no espaçamento e na movimentação. Nunca corra em linha reta. Use esquivas erráticas, saltos e corridas para confundir o jogador de longo alcance, induzindo-o a gastar seus tiros ou arremessos. Assim que ele estiver recarregando ou se recuperando de um ataque perdido, feche a distância rapidamente e golpeie com uma arma de alto alcance como a Katana."
+  },
+  {
+    question: "Qual arma tem o melhor alcance em Knife Duels?",
+    answer: "A Katana atualmente oferece o melhor alcance entre todas as armas corpo a corpo em Knife Duels. Isso a torna a escolha ideal para counterar ameaças de longo alcance, pois permite que você desfira golpes de uma distância mais segura em comparação com armas de curto alcance como a Adaga."
+  },
+  {
+    question: "O bloqueio é eficaz contra ataques à distância ou corpo a corpo rápidos?",
+    answer: "Sim, segurar a tecla de bloqueio (Ctrl no PC) é altamente eficaz. Ele reduz o dano recebido e pode atordoar atacantes agressivos de curta distância, dando a você uma janela perfeita para executar um contra-ataque rápido."
+  },
+  {
+    question: "Como desbloqueio armas de Nível S como a Butterfly Knife?",
+    answer: "Você pode desbloquear armas de Nível S e skins cosméticas completando partidas, ganhando moedas, resgatando códigos ativos e progredindo nos níveis de recompensa do jogo. Fique atento às atualizações do jogo que introduzem novos caminhos de progressão."
+  }
+]} />
+
+<Callout type="tip" title="Veredito Final">
+Praticar consistentemente sua movimentação em partidas casuais ou no modo de treinamento é a maneira mais rápida de construir a memória muscular necessária para dominar duelos competitivos. Foque no seu espaçamento, seja paciente e deixe o oponente cometer o primeiro erro.
+</Callout>
+
+</Section>

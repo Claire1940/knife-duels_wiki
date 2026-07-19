@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Knife Duels Guide: Kampfmechaniken & Pro-Strategien für 2026",
+  description: "Meistere die Arena mit unserem Knife Duels Guide. Lerne fortgeschrittene Kampftechniken, Waffen-Rankings und Gewinnstrategien für die Rangliste 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Knife+Duels+Mastery",
+  date: "2026-07-20",
+  author: "Knife Duels Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Knife Duels Guide**: Konzentriere dich darauf, die rhythmische „Hit-and-Run“-Bewegung zu meistern, um die Arena zu dominieren.
+- **Kernmechanik**: Das Distanzmanagement ist der wichtigste Einzelfaktor, um Duelle in hohen Rängen zu gewinnen.
+- **Beste Strategie**: Locke den Schlag deines Gegners an, indem du dich in seine Reichweite begibst und sofort nach hinten dashst.
+- **Wichtiger Tipp**: Achte immer auf die Armanimation des Gegners und nicht auf seine Füße, um Angriffe vorherzusehen.
+- **Beste Wahl**: Der Ausgewogene Dolch bleibt die zuverlässigste Waffe für das kompetitive Spiel im Jahr 2026.
+</Callout>
+
+<Section icon={Map} title="Die Grundlagen von Knife Duels meistern">
+
+Um in der kompetitiven Arena erfolgreich zu sein, ist es unerlässlich, den grundlegenden Ablauf des Kampfes zu verstehen. In der aktuellen Meta von 2026 hat sich Knife Duels von einfachem Button-Mashing zu einem anspruchsvollen Spiel aus Spacing (Abstandssteuerung) und Timing entwickelt. Egal, ob du in den Eisen-Rängen kämpfst oder den Großmeister-Rang anstrebst, die grundlegenden Prinzipien des Kampfes bleiben dieselben: Schlage zu, wenn der Gegner sich erholt, und bewege dich, wenn er angreift.
+
+**Video-Highlights:**
+- Beobachten von Bewegungsmustern in Duellen niedrigerer Ränge („Eisen“).
+- Die Bedeutung von „Standhalten“ im Vergleich zu aggressivem Anstürmen.
+- Erkennen des Moments der Verwundbarkeit nach einem Fehlschlag.
+- Nutzen der Umgebung, um Gegner in die Enge zu treiben.
+
+<YouTubeEmbed videoId="bdGEEz9DgiI" title="Messerduelle im Eisen-Rang" />
+
+| Skill-Level | Hauptfokus | Bewegungsstil | Häufiger Fehler |
+| :--- | :--- | :--- | :--- |
+| **Eisen** | Einfaches Schlagen | Nach vorne stürmen | Zu häufiges Schwingen |
+| **Bronze** | Timing der Schläge | Seitwärts-Strafing | Schlechte Distanzkontrolle |
+| **Silber** | Parieren | Kreisförmige Bewegung | Vorhersehbare Muster |
+| **Gold+** | Psychospiele | Finten/Anlocken | Zögern |
+
+<Callout type="tip" title="Profi-Tipp">
+In niedrigeren Rängen wie Eisen stürmen die meisten Spieler direkt auf dich zu. Nutze dies zu deinem Vorteil, indem du für einen kurzen Moment stehen bleibst, um einen Ausfallschritt anzulocken, und dann seitlich ausweichst und zum Gegenangriff übergehst.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Waffenklassen und Statuswert-Analyse 2026">
+
+Die Wahl der richtigen Klinge in Knife Duels ist nicht nur eine Frage der Ästhetik; es geht darum, die Frame-Daten der Waffe an deinen persönlichen Spielstil anzupassen. Für 2026 haben die Entwickler die Waffen in drei verschiedene Kategorien unterteilt. Das Verständnis der Kompromisse zwischen Reichweite, Geschwindigkeit und Erholungszeit entscheidet über einen sauberen Kill oder eine frustrierende Niederlage.
+
+<CardGrid cols={3}>
+  <Card title="Leichte Klingen">
+    - **Hohe Angriffsgeschwindigkeit**
+    - Kürzeste Reichweite
+    - Minimale Erholungsframes
+    - Bestens geeignet für aggressive Nahkampftaktiken („Face-Hugging“).
+  </Card>
+  <Card title="Standarddolche">
+    - **Ausgewogene Werte**
+    - Mittlere Reichweite
+    - Moderater Schaden
+    - Die vielseitigste Wahl für jedes Duellszenario.
+  </Card>
+  <Card title="Schwere Messer">
+    - **Hohe Wucht**
+    - Größte Reichweite
+    - Langsamste Erholungszeit
+    - Erfordert präzises Timing und einen bestrafenden Spielstil („Punish“).
+  </Card>
+</CardGrid>
+
+| Waffenname | Schaden | Angriffsgeschwindigkeit | Reichweite | Erholung |
+| :--- | :--- | :--- | :--- | :--- |
+| **Rust Bucket** | 15 | Schnell | Kurz | 0.2s |
+| **Steel Dirk** | 25 | Mittel | Mittel | 0.4s |
+| **Combat Tanto** | 20 | Sehr schnell | Kurz | 0.15s |
+| **Executioner** | 45 | Langsam | Lang | 0.8s |
+| **Shadow Blade** | 30 | Mittel | Mittel | 0.35s |
+
+<Callout type="warning" title="Warnung">
+Schwere Waffen wie der Executioner machen dich extrem verwundbar, wenn du verfehlst. Schwinge eine langsame Waffe niemals zuerst, es sei denn, du bist dir des Treffers absolut sicher.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Anleitung für den perfekten Konter">
+
+Das Ausführen eines erfolgreichen Gegenangriffs ist das Markenzeichen eines erfahrenen Spielers. Dieser **Knife Duels Guide** empfiehlt, den „Flash-Step-Konter“ zu üben, um schnell in den Rängen aufzusteigen. Diese Technik basiert auf der Trefferregistrierung des Servers und erfordert eine präzise Ausführung der Bewegungs- und Kamerasteuerung.
+
+<Steps>
+  <Step num="1" title="Das Anlocken">
+    Nähere dich der „Gefahrenzone“ des Gegners (knapp außerhalb seiner Reichweite) und tippe deine Vorwärtstaste an. Dies löst normalerweise den Instinkt aus, zuzuschlagen.
+  </Step>
+  <Step num="2" title="Der Rückzug">
+    Sobald du siehst, dass sich ihr Arm bewegt, tippe deine Rückwärtstaste oder die Dash-Taste an. Du willst, dass ihr Messer um den kleinstmöglichen Abstand verfehlt.
+  </Step>
+  <Step num="3" title="Der Pivot">
+    Sobald ihre Schlaganimation in die „Erholungsphase“ übergeht, mache sofort einen Ausfallschritt nach vorne. Ziele auf den Oberkörper oder den Kopf, um die Trefferwahrscheinlichkeit zu maximieren.
+  </Step>
+  <Step num="4" title="Der Reset">
+    Bleibe nach dem Treffer nicht in Reichweite. Weiche sofort zur Seite aus (Strafe), um einen „Vergeltungsschlag“ zu vermeiden und deine Ausdauer wieder aufzuladen.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Erfolgsmechanik">
+Schritt 2 zu meistern ist der schwierigste Teil. Wenn du dich zu früh zurückziehst, schlägt der Gegner nicht zu. Wenn du dich zu spät zurückziehst, erleidest du Schaden. Übe in der Trainingslobby, um den optimalen Punkt („Sweet Spot“) zu finden.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Verteidigungsmanöver und Überleben">
+
+Die Offensive gewinnt Runden, aber die Defensive gewinnt Turniere. In Knife Duels geht es beim Überleben oft um „aktive Verteidigung“ – also darum, deine Bewegung zu nutzen, um dich zu einem unmöglichen Ziel zu machen. Statisches Blocken ist gegen hochrangige Spieler, die wissen, wie man die Deckung umgeht, selten effektiv. Konzentriere dich stattdessen auf diese drei Verteidigungstypen.
+
+| Verteidigungstyp | Technik | Bestens gegen | Risikostufe |
+| :--- | :--- | :--- | :--- |
+| **Der Geist** | Ständiges unregelmäßiges Springen/Ducken | Schwere Waffen | Hoch |
+| **Die Wand** | Perfektes Parry-Timing | Spammer von leichten Waffen | Mittel |
+| **Der Tänzer** | Großes kreisförmiges Ausweichen | Standarddolche | Niedrig |
+
+<Callout type="info" title="Hinweis">
+Die Server-Latenz (Ping) beeinflusst das Parry-Timing stark. Wenn dein Ping über 80 ms liegt, verlasse dich eher auf den Bewegungsstil „Der Tänzer“, anstatt zu versuchen, perfekte Paraden zu timen.
+</Callout>
+
+### Fortgeschrittene Positionierungstaktiken
+1. **In die Enge treiben**: Dränge deinen Gegner an den Rand der Arena, um seine Ausweichmöglichkeiten einzuschränken.
+2. **Vorteil der erhöhten Position**: Wenn die Arena Höhenunterschiede aufweist, erhöht ein Angriff von oben deine Reichweite aufgrund der Hitbox-Berechnung des Spiels geringfügig.
+3. **Ausdauermanagement**: Lass deine Ausdauerleiste niemals unter 20 % fallen. Ein Spieler ohne Ausdauer kann sich nicht aus der Gefahrenzone dashen.
+
+</Section>
+
+<Section icon={Trophy} title="Fortschritts-Checkliste für 2026">
+
+Um in der Saison 2026 wettbewerbsfähig zu bleiben, sollten Spieler einem strukturierten Fortschrittspfad folgen. Dies stellt sicher, dass du nicht nur Ränge aufsteigst, sondern auch die notwendige Ausrüstung und Perks freischaltest, die in hochrangigen Spielen kleine, aber entscheidende Vorteile bieten.
+
+<Checklist
+  id="pro-progression"
+  title="Tägliche & wöchentliche Kampfziele:"
+  items={[
+    "Gewinne 5 Duelle, ohne mehr als 50 % Schaden zu erleiden",
+    "Meistere das Parry-Timing für die 'Shadow Blade'",
+    "Erreiche Rang Silber III in der Rangliste",
+    "Schalte den 'Agile'-Perk im Skillbaum frei",
+    "Schließe 10 fehlerfreie Runden in der Trainingsarena ab"
+  ]}
+/>
+
+<Callout type="tip" title="Optimierung">
+Der 'Agile'-Perk ist derzeit die Meta-Wahl für 2026, da er die Ausdauerkosten von Rückwärts-Dashes um 15 % senkt, was häufigere Lockmanöver ermöglicht.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen (FAQ)">
+
+Unser **Knife Duels Guide** wäre nicht vollständig, ohne die häufigsten Fragen der Community zu beantworten. Diese Antworten basieren auf den neuesten Patchnotizen für 2026 und Gameplay-Daten auf hohem Niveau.
+
+<FAQ items={[
+  {
+    question: "Was ist das beste Messer für Anfänger in Knife Duels?",
+    answer: "Der 'Steel Dirk' ist the beste Ausgangspunkt. Er hat ausgewogene Werte, mit denen du sowohl das offensive als auch das defensive Timing erlernen kannst, ohne die extremen Nachteile von schweren oder leichten Spezialwaffen in Kauf nehmen zu müssen."
+  },
+  {
+    question: "Wie gehe ich mit 'Lag-Switchern' oder Spielern mit hohem Ping um?",
+    answer: "Vermeide gegen Spieler mit hohem Ping den Nahkampf. Vergrößere deinen Abstand und nutze die Ausweichtechnik „Der Tänzer“. Verlasse dich nicht auf Paraden, da der Server den Treffer registrieren kann, bevor die Parade-Animation auf ihrem Bildschirm angezeigt wird."
+  },
+  {
+    question: "Lohnt sich die Nutzung des schweren Messers 'Executioner' im Jahr 2026?",
+    answer: "Nur in bestimmten Matchups. Es eignet sich hervorragend gegen Spieler, die zu defensiv spielen, da sein hoher Schaden die Deckung leicht durchbrechen kann. Gegen schnelle Nutzer von 'Leichten Klingen' ist es jedoch oft zu langsam, um lebensfähig zu sein."
+  },
+  {
+    question: "Wie kann ich mein Ranking schnell verbessern?",
+    answer: "Konzentriere dich auf Beständigkeit statt auf spektakuläre Spielzüge. Ein verlässlicher 2:1-Sieg ist besser, als auf 3:0-Highlights zu gehen und unnötige Niederlagen zu riskieren. Meistere ein Bewegungsmuster und eine Waffe, bevor du dich breiter aufstellst."
+  }
+]} />
+
+<Callout type="success" title="Schlusswort">
+Die Arena verändert sich ständig. Bleib aufmerksam, schaue dir deine Wiederholungen an und denke daran, dass jede Niederlage nur eine Lektion im Spacing ist. Wir sehen uns in den Großmeister-Rängen!
+</Callout>
+
+</Section>

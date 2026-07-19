@@ -10,11 +10,19 @@
       "twitterDescription": "Knife Duels Wiki with PvP guides, knife skins, codes, controls, and duel strategies for the Roblox knife PvP arena."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "weapons": "Weapons",
+    "values": "Values",
+    "crosshair": "Crosshair",
+    "modes": "Modes",
+    "updates": "Updates"
+  },
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -53,696 +61,333 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Knife Duels Gameplay",
+    "description": "Enter fast-paced Roblox knife PvP arenas, master close-range duels, collect knives and skins, and climb the competitive leaderboard."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Knife Duels",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need to master Knife Duels — codes, weapons, controls, duel strategies, and community updates",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "icon": "Sparkles",
+        "title": "Knife Duels Codes",
+        "description": "Active redeem codes and free reward claims"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "BookOpen",
+        "title": "Knife Duels Beginner Guide",
+        "description": "First steps, controls, and early duel basics"
       },
       {
         "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
+        "title": "Knife Duels Weapons Tier List",
+        "description": "Compare knife types by speed, range, and power"
       },
       {
         "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
+        "title": "Knife Duels Gameplay Guide",
+        "description": "Game modes, match rules, and combat mechanics"
       },
       {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
+        "icon": "Keyboard",
+        "title": "Knife Duels Controls Guide",
+        "description": "PC and mobile controls for movement and attacks"
       },
       {
         "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
+        "title": "Knife Duels Update History",
+        "description": "Content releases, balance changes, and patches"
       },
       {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "TrendingUp",
+        "title": "Knife Duels Tips and Tricks",
+        "description": "Advanced combat tips and winning strategies"
+      },
+      {
+        "icon": "Users",
+        "title": "Knife Duels Community Links",
+        "description": "Official channels, videos, and player discussions"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "knifeDuelsCodes": {
+      "title": "Knife Duels Codes",
+      "intro": "Find redeem codes for free rewards including knives, skins, coins, and boosts. Check the active codes below and learn how to claim bonuses inside Knife Duels.",
+      "items": [
+        {
+          "code": "RELEASE",
+          "reward": "Free starter coins and beginner rewards",
+          "status": "Active",
+          "description": "A launch-style code that gives new players early progression resources."
+        },
+        {
+          "code": "KNIFE",
+          "reward": "Free knife skin",
+          "status": "Active",
+          "description": "Unlocks a cosmetic knife reward for customizing your weapon appearance."
+        },
+        {
+          "code": "DUELS",
+          "reward": "Coins and XP boost",
+          "status": "Active",
+          "description": "Provides resources that help players progress faster through matches."
+        },
+        {
+          "code": "UPDATE",
+          "reward": "Free coins and temporary boost",
+          "status": "Active",
+          "description": "A reward code connected with major game updates and new content releases."
+        },
+        {
+          "code": "FREESKIN",
+          "reward": "Random knife skin",
+          "status": "Expired",
+          "description": "Previously provided a cosmetic weapon customization reward."
+        }
+      ]
+    },
+    "knifeDuelsBeginnerGuide": {
+      "title": "Knife Duels Beginner Guide",
+      "intro": "New players can follow this guide to understand the basics of Knife Duels. From joining matches to improving timing and movement, these steps cover the most important skills for beginners.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Join Your First Match",
+          "description": "Enter a 1v1 or Free-For-All lobby and learn the arena layout before focusing on winning."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Learn Basic Knife Attacks",
+          "description": "Use your primary attack to practice swing timing, spacing, and landing hits safely."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Master Dodging Movement",
+          "description": "Move sideways, jump, and reposition frequently to avoid predictable enemy attacks."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Practice Blocking and Counters",
+          "description": "Use defensive timing to block attacks and create opportunities for counter strikes."
+        },
+        {
+          "title": "Unlock Better Knives",
+          "description": "Complete matches, collect rewards, and unlock new knives or skins to improve your collection."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Stay mobile — standing still makes you an easy target in every duel.",
+        "Learn attack ranges so you can strike first without overcommitting.",
+        "Mix up your movement patterns to keep opponents guessing.",
+        "Spend rewards on knives that match your preferred combat style."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "knifeDuelsWeaponsTierList": {
+      "title": "Knife Duels Weapons Tier List",
+      "intro": "This tier list organizes common Knife Duels weapon types by their effectiveness in close-range PvP combat. Faster weapons usually reward skilled timing, while heavier weapons deliver stronger hits.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "weapon": "Katana",
+          "tier": "S",
+          "description": "Fast attack speed with excellent range, making it strong for skilled duel players."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "weapon": "Butterfly Knife",
+          "tier": "S",
+          "description": "High mobility weapon with quick animations and strong outplay potential."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "weapon": "Dagger",
+          "tier": "A",
+          "description": "Very fast weapon that excels in aggressive close-range fights."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "weapon": "Machete",
+          "tier": "A",
+          "description": "Balanced damage and range option suitable for most players."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "weapon": "Cleaver",
+          "tier": "B",
+          "description": "Heavy hitting weapon with slower attacks but reliable damage."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "weapon": "Basic Knife",
+          "tier": "C",
+          "description": "Starter weapon with simple mechanics but fewer combat advantages."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+    "knifeDuelsGameplayGuide": {
+      "title": "Knife Duels Gameplay Guide",
+      "intro": "Knife Duels is a fast-paced Roblox PvP experience focused on close-range knife combat. Players compete across different modes while improving skills, collecting weapons, and earning rewards.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "mode": "1v1 Duel",
+          "rules": "Two players fight in a private arena. The first player to eliminate the opponent wins the round.",
+          "strategy": "Focus on timing attacks, reading enemy movement, and controlling distance."
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "mode": "Free-For-All",
+          "rules": "Multiple players battle simultaneously until the winner reaches the objective score.",
+          "strategy": "Avoid crowded fights and attack opponents when they are vulnerable."
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "mode": "Team Duels",
+          "rules": "Players are divided into teams and compete for eliminations together.",
+          "strategy": "Coordinate attacks and support teammates during fights."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "mode": "Training",
+          "rules": "Practice combat mechanics without competitive pressure.",
+          "strategy": "Improve aim, movement, attack timing, and defensive reactions."
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
+    "knifeDuelsControlsGuide": {
+      "title": "Knife Duels Controls Guide",
+      "intro": "This guide explains the main keyboard, mouse, and mobile controls used in Knife Duels. New players can quickly learn how to move, attack, dodge, and defend before entering competitive matches.",
+      "items": [
         {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
+          "platform": "PC",
+          "input": "Left Mouse Button (LMB)",
+          "action": "Perform a knife attack",
+          "usage": "Use quick clicks to strike opponents during close-range combat"
+        },
+        {
+          "platform": "PC",
+          "input": "Shift",
+          "action": "Sprint movement",
+          "usage": "Move faster to chase enemies or escape dangerous situations"
+        },
+        {
+          "platform": "PC",
+          "input": "Space",
+          "action": "Jump",
+          "usage": "Jump over attacks and improve movement options during fights"
+        },
+        {
+          "platform": "PC",
+          "input": "Ctrl",
+          "action": "Block or defensive stance",
+          "usage": "Reduce incoming damage and create opportunities for counter attacks"
+        },
+        {
+          "platform": "Mobile",
+          "input": "Virtual Joystick",
+          "action": "Move character",
+          "usage": "Control movement direction during battles"
+        },
+        {
+          "platform": "Mobile",
+          "input": "Attack Button",
+          "action": "Swing knife",
+          "usage": "Tap the attack button to perform melee strikes"
+        }
+      ]
+    },
+    "knifeDuelsUpdateHistory": {
+      "title": "Knife Duels Update History",
+      "intro": "This timeline helps returning players understand important changes, new weapons, and gameplay improvements introduced through Knife Duels updates.",
+      "items": [
+        {
+          "version": "Version 1.0",
+          "date": "Initial Release",
+          "changes": [
+            "Added core knife combat system",
+            "Introduced 1v1 and Free-For-All matches",
+            "Added basic knife unlock rewards"
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
+          "version": "Combat Update",
+          "date": "Early Development Update",
+          "changes": [
+            "Improved attack timing",
+            "Adjusted melee hit detection",
+            "Added new combat effects"
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
+          "version": "Weapons Update",
+          "date": "Content Expansion",
+          "changes": [
+            "Added additional knife types",
+            "Introduced new skins",
+            "Expanded reward progression"
           ]
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
+          "version": "Balance Update",
+          "date": "Gameplay Adjustment",
+          "changes": [
+            "Changed weapon balance values",
+            "Improved competitive matchmaking",
+            "Adjusted movement mechanics"
           ]
         },
         {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
+          "version": "Community Update",
+          "date": "Seasonal Release",
+          "changes": [
+            "Added limited rewards",
+            "Improved player experience",
+            "Updated game announcements"
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
+    "knifeDuelsTipsAndTricks": {
+      "title": "Knife Duels Tips and Tricks",
+      "intro": "Winning in Knife Duels requires more than fast attacks. These tips help players understand spacing, timing, movement, and common mistakes that reduce their chances of winning.",
+      "items": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "title": "Control Your Distance",
+          "description": "Stay at the edge of attack range to bait enemy swings and create counter attack opportunities."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "title": "Learn Attack Timing",
+          "description": "Avoid random button mashing and attack when opponents finish their movement or miss a strike."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "title": "Use Movement Advantage",
+          "description": "Combine jumping, strafing, and sprinting to make yourself harder to hit."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "title": "Watch Enemy Patterns",
+          "description": "Study repeated attack habits and predict when opponents will attack or dodge."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
+          "title": "Avoid Open Fighting Areas",
+          "description": "Use positioning and map objects to limit enemy movement options."
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "title": "Practice Before Ranked Matches",
+          "description": "Use training or casual fights to improve mechanics before competitive battles."
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
+    "knifeDuelsCommunityLinks": {
+      "title": "Knife Duels Community Links",
+      "intro": "The Knife Duels community provides places for players to discover announcements, share strategies, and stay updated with new content releases.",
+      "items": [
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
+          "platform": "Roblox Game Page",
+          "purpose": "Official game access, updates, player reviews, and game information",
+          "link": "https://www.roblox.com/games/79877593860968/KNIFE-DUELS"
         },
         {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
+          "platform": "Roblox Discover",
+          "purpose": "Find Knife Duels and related Roblox knife PvP experiences",
+          "link": "https://www.roblox.com/discover?Keyword=knife%20duels"
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
+          "platform": "YouTube Gameplay",
+          "purpose": "Watch gameplay videos, combat guides, and community highlights",
+          "link": "https://www.youtube.com/results?search_query=knife+duels+roblox"
         },
         {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "platform": "Reddit Discussions",
+          "purpose": "Share strategies, weapon opinions, and gameplay experiences with other players",
+          "link": "https://www.reddit.com/search/?q=knife%20duels%20roblox"
         }
       ]
     }
@@ -750,37 +395,37 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Knife Duels",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Knife Duels on Roblox?",
+        "answer": "Knife Duels is a fast-paced Roblox PvP game focused on close-range knife combat across modes like 1v1, Free-For-All, and Team Duels."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Where can I play Knife Duels?",
+        "answer": "You can play Knife Duels directly on Roblox through the official game page on any supported device."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How do I redeem Knife Duels codes?",
+        "answer": "Open the code redemption menu inside Knife Duels, enter an active code, and claim your free coins, skins, and boosts."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Is Knife Duels free to play?",
+        "answer": "Yes. Knife Duels is free to play on Roblox, with optional cosmetics and boosts available through gameplay and codes."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "What are the best knives in Knife Duels?",
+        "answer": "Fast weapons like the Katana and Butterfly Knife rank highest in the Knife Duels tier list thanks to their speed and range."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Does Knife Duels get regular updates?",
+        "answer": "Yes. Knife Duels receives updates that add new knives, skins, balance changes, and limited-time rewards."
       }
     ]
   },
   "cta": {
     "title": "Ready to Master Knife Duels?",
-    "description": "Jump into the arena on Roblox for fast-paced 1v1, Free For All, and Team knife duels with exclusive skins and kill streaks!",
+    "description": "Jump into the arena on Roblox for fast-paced 1v1, Free For All, and Team knife duels with exclusive skins and kill streaks.",
     "joinCommunity": "Explore on Roblox",
     "joinGame": "Play on Roblox"
   },
@@ -800,125 +445,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "codes": {
+      "title": "Knife Duels Codes",
+      "description": "Active Knife Duels codes for free coins, skins, and boosts. Redeem the latest working codes and claim rewards before they expire.",
+      "metaTitle": "Knife Duels Codes - Active Redeem Codes (July 2026)",
+      "metaDescription": "Get the latest active Knife Duels codes for free coins, skins, and boosts. Updated daily with verified working redeem codes and a step-by-step guide.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Knife Duels Codes?",
+      "whatIsDescription": "Knife Duels codes are redeemable keys released by the developers that grant free in-game rewards such as coins, knife skins, XP boosts, and limited cosmetics. Enter them in the redemption menu to claim bonuses instantly.",
+      "why": "Why redeem codes?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Free Coins & Boosts",
+        "step1Description": "Claim coins and XP boosts without spending Robux to speed up early progression",
+        "step2Title": "Exclusive Skins",
+        "step2Description": "Unlock knife skins and cosmetics only available through active codes",
+        "step3Title": "Stay Ahead of Expirations",
+        "step3Description": "Redeem codes quickly before they expire and check back for fresh releases"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "Knife Duels Guide",
+      "description": "Complete Knife Duels guides from beginner basics and controls to advanced throwing tips, combat mechanics, and duel-winning strategies.",
+      "metaTitle": "Knife Duels Guide - Beginner Tips, Controls & Strategies",
+      "metaDescription": "Master Knife Duels with complete guides covering beginner basics, PC and mobile controls, knife throwing, gameplay mechanics, and advanced duel strategies.",
+      "categoryLabel": "GAME GUIDES",
+      "whatIs": "What is the Knife Duels Guide?",
+      "whatIsDescription": "The Knife Duels guide covers everything you need to play well: first-time setup, controls for PC and mobile, how to throw knives, movement, and the core combat mechanics that decide every duel.",
+      "why": "Why read the guide?",
+      "whySteps": {
+        "step1Title": "Learn the Controls",
+        "step1Description": "Master PC and mobile inputs for attacking, moving, and aiming so reactions become instinct",
+        "step2Title": "Throw Knives Accurately",
+        "step2Description": "Practice aiming, leading targets, and timing throws to land consistent hits",
+        "step3Title": "Win More Duels",
+        "step3Description": "Apply movement, spacing, and counter-attack strategies to climb the leaderboard"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "weapons": {
+      "title": "Knife Duels Weapons",
+      "description": "Every Knife Duels weapon and knife ranked by speed, range, damage, and rarity. Compare knives, check prices, and build the best loadout.",
+      "metaTitle": "Knife Duels Weapons - Knife Tier List, Stats & Prices",
+      "metaDescription": "Compare every Knife Duels weapon and knife with stats, rarity tiers, prices, and a full tier list. Find the best knives for shop, trading, and combat.",
+      "categoryLabel": "WEAPONS & TIER LIST",
+      "whatIs": "What are Knife Duels Weapons?",
+      "whatIsDescription": "Knife Duels weapons are the knives you wield in combat. Each knife has unique stats for speed, range, and damage, plus a rarity tier that affects its value in the shop and player trading.",
+      "why": "Why compare weapons?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Pick the Best Knife",
+        "step1Description": "Choose knives that match your speed, range, and aggression playstyle",
+        "step2Title": "Understand Rarity & Value",
+        "step2Description": "Learn which knife rarities hold the most value for shop purchases and trades",
+        "step3Title": "Trade Smarter",
+        "step3Description": "Use accurate price references to win trades and avoid overpaying in the knife shop"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Weapons"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "values": {
+      "title": "Knife Duels Values",
+      "description": "Accurate Knife Duels value list and trading value chart for knives and rare items. Check fair trade values before every deal.",
+      "metaTitle": "Knife Duels Values - Trading Value List & Chart",
+      "metaDescription": "Check the latest Knife Duels value list, trading values, and value chart for knives and rare items. Trade confidently with accurate, up-to-date item values.",
+      "categoryLabel": "TRADING VALUES",
+      "whatIs": "What are Knife Duels Values?",
+      "whatIsDescription": "Knife Duels values are the estimated worth of each knife and rare item used by the trading community. The value list and chart help players agree on fair trades instead of guessing.",
+      "why": "Why use a value list?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Trade Fairly",
+        "step1Description": "Compare item values before every trade so both sides get a fair deal",
+        "step2Title": "Spot Rare Items",
+        "step2Description": "Identify high-value and rare knives that hold their worth over time",
+        "step3Title": "Avoid Bad Deals",
+        "step3Description": "Use the value chart to reject lowball offers and protect your inventory"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Values"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "crosshair": {
+      "title": "Knife Duels Crosshair",
+      "description": "Knife Duels crosshair IDs and custom crosshair settings. Browse crosshair codes and learn how to import a custom aim reticle.",
+      "metaTitle": "Knife Duels Crosshair - IDs & Custom Crosshair Guide",
+      "metaDescription": "Find Knife Duels crosshair IDs and learn how to set a custom crosshair. Browse popular crosshair codes and import your favorite aim reticle in seconds.",
+      "categoryLabel": "CROSSHAIR & AIM",
+      "whatIs": "What is the Knife Duels Crosshair?",
+      "whatIsDescription": "The Knife Duels crosshair is the on-screen reticle that shows where your throws will land. Players can switch crosshairs using shared crosshair IDs or create a custom crosshair for better aiming.",
+      "why": "Why customize your crosshair?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Aim More Accurately",
+        "step1Description": "Pick a reticle shape and color that stands out against the arena background",
+        "step2Title": "Use Shared Crosshair IDs",
+        "step2Description": "Import popular crosshair codes from other players with a single ID",
+        "step3Title": "Build a Custom Crosshair",
+        "step3Description": "Fine-tune size, thickness, and gap to match your throwing style"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Crosshairs"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "modes": {
+      "title": "Knife Duels Modes",
+      "description": "Every Knife Duels game mode explained: knife vs gun duels, sniper duels, and 1v1 rules. Learn how each mode plays and how to win.",
+      "metaTitle": "Knife Duels Modes - Knife vs Gun, Sniper & 1v1 Duels",
+      "metaDescription": "Explore every Knife Duels mode including knife vs gun duels, gun vs knife duels, sniper duels, and 1v1. Learn the rules, strategies, and win conditions for each format.",
+      "categoryLabel": "GAME MODES",
+      "whatIs": "What are Knife Duels Modes?",
+      "whatIsDescription": "Knife Duels modes are the different match formats you can play, including knife versus gun duels, gun versus knife duels, sniper duels, and pure 1v1. Each mode has its own rules and winning conditions.",
+      "why": "Why learn every mode?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Know the Rules",
+        "step1Description": "Understand the win conditions and flow of knife vs gun, sniper, and 1v1 duels",
+        "step2Title": "Adapt Your Loadout",
+        "step2Description": "Switch knives and strategies based on whether you face a gun, sniper, or another knife",
+        "step3Title": "Master Your Best Mode",
+        "step3Description": "Find the format where your aiming and movement skills give the biggest edge"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Modes"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "updates": {
+      "title": "Knife Duels Updates",
+      "description": "Latest Knife Duels updates, new knives, events, and 2026 patch notes. Track every new release and balance change in one place.",
+      "metaTitle": "Knife Duels Updates - New Knives, Events & 2026 Patch Notes",
+      "metaDescription": "Stay current with Knife Duels updates including new knives, limited events, balance changes, and 2026 patch notes. See what each update adds to the arena.",
+      "categoryLabel": "UPDATES & PATCHES",
+      "whatIs": "What are Knife Duels Updates?",
+      "whatIsDescription": "Knife Duels updates are the patches and content releases published by the developers. They add new knives, game modes, events, and balance changes throughout 2026 and beyond.",
+      "why": "Why follow updates?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Catch New Knives First",
+        "step1Description": "Discover newly released knives and secure them before values climb",
+        "step2Title": "Join Limited Events",
+        "step2Description": "Play time-limited events for exclusive skins, codes, and rewards",
+        "step3Title": "Adapt to Balance Changes",
+        "step3Description": "Adjust your loadout and strategy when patches change weapon stats or mode rules"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Updates"
     }
   }
 }

@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "weapons": "Waffen",
+    "values": "Werte",
+    "crosshair": "Fadenkreuz",
+    "modes": "Modi",
+    "updates": "Updates"
+  }
+}

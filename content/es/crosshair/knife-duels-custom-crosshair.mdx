@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mira personalizada en Knife Duels: Guía de configuración 2026 y consejos de precisión",
+  description: "Mejora tu precisión con una mira personalizada en Knife Duels. Aprende a configurar IDs, optimizar ajustes y dominar las mecánicas de combate en Roblox Knife Duels.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Custom+Crosshair+Guide",
+  date: "2026-07-20",
+  author: "Equipo de la Wiki de Knife Duels"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Mira personalizada en Knife Duels**: Esencial para mejorar la detección de impactos y la claridad visual durante enfrentamientos 1v1 a alta velocidad.
+- **Proceso de configuración**: Requiere acceder al menú de ajustes del juego e ingresar **IDs de recursos** (Asset IDs) específicos de la biblioteca de Roblox.
+- **Sinergia de combate**: Combina tu mira con **armas de nivel S** como la Katana o la Butterfly Knife para una máxima eficiencia.
+- **Dominio del movimiento**: Usa una mira estática para seguir mejor el movimiento del enemigo mientras realizas **strafing y saltos**.
+- **Optimización**: Ajusta la opacidad y el tamaño para asegurarte de que la mira no obstruya a tu objetivo en entornos de arena oscuros.
+</Callout>
+
+<Section icon={Target} title="Comprendiendo la mecánica de la mira personalizada en Knife Duels">
+
+En el competitivo entorno de Roblox Knife Duels, la precisión suele ser el factor decisivo entre la victoria y la derrota. Aunque la interfaz predeterminada ofrece una puntería básica, una **mira personalizada en Knife Duels** permite a los jugadores personalizar su retroalimentación visual. Esto es especialmente importante porque el combate del juego depende en gran medida del "tiempo de ataque" (swing timing) y el "espaciado" (spacing). Una retícula personalizada te ayuda a visualizar el centro exacto de la pantalla, facilitando el acierto con armas de corto alcance como las Dagas o armas de alta velocidad como la Katana.
+
+| Característica | Mira predeterminada | Mira personalizada |
+| :--- | :--- | :--- |
+| **Visibilidad** | Baja (suele mezclarse con el fondo) | Alta (colores y formas personalizados) |
+| **Precisión** | Dispersión circular estándar | Punto o cruz con precisión de píxel |
+| **Personalización** | Ninguna | ID, tamaño y opacidad ajustables |
+| **Ventaja en combate** | Seguimiento básico | Velocidad de reacción y predicción mejoradas |
+
+La mayoría de los jugadores de alto nivel en la comunidad prefieren un diseño minimalista. Un punto pequeño y brillante (a menudo verde neón o cian) ofrece el mejor contraste contra las texturas oscuras y metálicas de las arenas de duelo. Al reducir la distracción visual, puedes concentrarte por completo en la caja de impacto ("hurtbox") del oponente y en sus patrones de movimiento.
+
+<Callout type="success" title="Aumento de rendimiento">
+Usar una mira personalizada puede reducir significativamente el "ruido visual" durante las partidas de Todos contra Todos (Free-For-All), donde varios jugadores blanden sus armas simultáneamente.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Cómo configurar tu mira personalizada">
+
+Configurar una **mira personalizada en Knife Duels** es un proceso sencillo, pero requiere que tengas los IDs de recursos (Asset IDs) correctos del catálogo de Roblox. Dado que Knife Duels está desarrollado sobre el motor de Roblox, utiliza el sistema estándar de IDs de imagen para la personalización de la interfaz de usuario.
+
+<Steps>
+  <Step num="1" title="Encuentra un ID de mira">
+    Explora la sección de Creación/Mercado de Roblox en busca de calcomanías de "Mira" (Crosshair) o "Retícula" (Reticle). Copia el ID numérico que se encuentra en la URL del recurso (por ejemplo, `rbxassetid://123456789`).
+  </Step>
+  <Step num="2" title="Accede a los ajustes del juego">
+    Inicia Knife Duels y busca el icono de engranaje de **Ajustes** (Settings), que suele encontrarse en la parte izquierda o inferior de la pantalla del menú principal.
+  </Step>
+  <Step num="3" title="Introduce el ID">
+    Localiza el campo etiquetado como "Custom Crosshair ID" o "Reticle ID". Pega la cadena numérica que copiaste en el cuadro y presiona Enter.
+  </Step>
+  <Step num="4" title="Ajusta los elementos visuales">
+    Ajusta con precisión el tamaño y la transparencia. Se recomienda un tamaño de entre 10 y 20 píxeles para la mayoría de los monitores de 1080p para mantener un equilibrio entre visibilidad y precisión.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Carga de recursos">
+Si tu mira aparece como un cuadro gris o no se carga, asegúrate de que el ID esté configurado como "Público" en el sitio de Roblox. Algunos IDs pueden ser eliminados o moderados con el tiempo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estilos de mira recomendados para 2026">
+
+Los diferentes estilos de juego requieren distintas ayudas visuales. Tanto si eres un jugador defensivo que espera el momento para contraatacar como si eres un atacante agresivo, elegir el estilo adecuado para tu **mira personalizada en Knife Duels** puede cambiar tu forma de jugar.
+
+<CardGrid cols={3}>
+  <Card title="El punto estático">
+    - **Ideal para**: Seguimiento de precisión
+    - **Pros**: Minimalista, cero distracciones
+    - **Contras**: Puede ser difícil de ver en combates caóticos
+  </Card>
+  <Card title="La cruz de neón">
+    - **Ideal para**: Jugadores principiantes
+    - **Pros**: Alta visibilidad en cualquier iluminación
+    - **Contras**: Puede tapar pequeños detalles del movimiento enemigo
+  </Card>
+  <Card title="La superposición circular">
+    - **Ideal para**: Armas de corto alcance
+    - **Pros**: Visualiza la "zona de impacto" general
+    - **Contras**: Menos efectiva para estocadas de largo alcance con Katana
+  </Card>
+</CardGrid>
+
+Al seleccionar un estilo, considera la paleta de colores "Neón". Dado que muchos mapas de Knife Duels presentan fondos oscuros, futuristas o metálicos, colores como el **#00FF00 (Lima)**, **#FF00FF (Magenta)** y **#00FFFF (Cian)** proporcionan el mayor contraste. Evita los rojos o naranjas, ya que pueden mezclarse con los efectos de sangre o las texturas de fuego en ciertos modos de juego.
+
+<Callout type="tip" title="Estrategia profesional">
+Si juegas en un monitor con una alta tasa de refresco, una mira más pequeña siempre es mejor. Te permite ver con mayor claridad los micromovimientos del modelo de personaje de tu oponente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sinergia de combate: Miras y niveles de armas">
+
+Tu **mira personalizada en Knife Duels** debe complementar el arma que estás usando. Las diferentes hojas tienen distintas velocidades de ataque y alcances, lo que cambia la forma en que debes apuntar. Según las clasificaciones del meta de 2026, aquí te mostramos cómo combinar tu retícula con las mejores armas.
+
+| Tipo de arma | Nivel | Estilo de combate | Mira recomendada |
+| :--- | :--- | :--- | :--- |
+| **Katana** | **S** | Ataque rápido, largo alcance | Punto pequeño (Estocadas de precisión) |
+| **Butterfly Knife** | **S** | Alta movilidad, superación | Cruz delgada (Seguimiento) |
+| **Daga** | **A** | Corto alcance agresivo | Círculo (Visualización de hitbox) |
+| **Machete** | **A** | Daño/alcance equilibrado | Cruz estándar (Confiable) |
+| **Cuchilla (Cleaver)** | **B** | Golpe pesado, lento | Punto grande (Enfoque en el tiempo) |
+| **Cuchillo básico** | **C** | Arma inicial | Cualquiera (Aprendizaje de mecánicas) |
+
+Para las **armas de nivel S** como la Katana, el alcance es tu mayor ventaja. Una mira personalizada te ayuda a precisar la distancia máxima a la que tu hoja puede conectar, lo que te permite hacer "kite" (mantener la distancia) a los oponentes que usan armas más cortas como la Cuchilla o la Daga.
+
+<Callout type="info" title="Consejo de arma">
+La Butterfly Knife recompensa las animaciones rápidas. Usar una mira con una ligera transparencia (Alfa 0.7) te ayuda a ver a través de la retícula durante las maniobras de giro rápido para superar al rival.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Optimización de controles y movimiento">
+
+Una gran mira es inútil sin el movimiento adecuado. En Knife Duels, la "colocación de la mira" viene dictada por las entradas de tu teclado. Dominar la relación entre tu ratón y tus teclas de movimiento es vital para el PvP de alto nivel.
+
+<Checklist
+  id="combat-prep"
+  title="Lista de verificación para la optimización del combate:"
+  items={[
+    "Activa 'Shift Lock' en los ajustes de Roblox para un mejor control de la cámara",
+    "Configura tu mira personalizada en un color de alto contraste (Cian/Lima)",
+    "Practica el 'Strafing' (moverse con A/D) para mantener la mira en el objetivo",
+    "Ajusta la sensibilidad del ratón para permitir giros de 180 grados sin levantar el ratón",
+    "Aprende el tiempo del 'Salto y ataque' (Jump-Swing) para golpear por encima de los bloqueos enemigos"
+  ]}
+/>
+
+En cuanto a los controles puros, los jugadores de PC tienen una clara ventaja al apuntar. Sin embargo, los jugadores de móviles aún pueden competir utilizando un estilo de mira "circular" más grande para compensar las limitaciones de seguimiento de la pantalla táctil.
+
+| Plataforma | Entrada de teclado/pantalla | Acción | Uso para apuntar |
+| :--- | :--- | :--- | :--- |
+| **PC** | **Clic Izquierdo (LMB)** | Atacar | Haz clic cuando la mira se superponga al enemigo |
+| **PC** | **Shift** | Esprintar | Úsalo para acortar la distancia para un golpe |
+| **PC** | **Ctrl** | Bloquear | Defiende mientras mantienes la mira centrada |
+| **Móvil** | **Joystick** | Movimiento | Arrastra para alinear al personaje con el objetivo |
+| **Móvil** | **Tocar** | Atacar | Toca cuando el objetivo entre en el área de la retícula |
+
+<Callout type="tip" title="Consejo de movimiento">
+Nunca te quedes quieto. Usa tu esprint (Shift) para provocar un ataque enemigo y luego muévete inmediatamente hacia adelante mientras mantienes tu mira personalizada en su pecho para asestar un contraataque.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estrategias avanzadas para ganar duelos">
+
+Para dominar verdaderamente con tu **mira personalizada en Knife Duels**, debes entender el flujo de la partida. Ya sea que estés en un duelo 1v1 o en un caótico Todos contra Todos, tu enfoque debe estar en el "Apuntado predictivo".
+
+1. **Provocación (Baiting)**: Mueve tu mira ligeramente lejos del oponente para hacerle creer que estás distraído. Cuando se lance al ataque, haz un movimiento rápido de vuelta (flick) y golpea.
+2. **Espaciado (Spacing)**: Usa tu mira para medir la "zona de peligro". Si un enemigo con una Katana está al alcance de tu retícula pero tú tienes una Daga más corta, necesitas esquivar antes de atacar.
+3. **Seguimiento (Tracking)**: En los duelos por equipos, enfoca tu mira en el enemigo con menos salud. La coordinación es más fácil cuando puedes ver claramente a tu objetivo en medio del caos de múltiples jugadores.
+
+Ganar en Knife Duels requiere una combinación de velocidad de reacción rápida y la configuración técnica adecuada. Al implementar una mira personalizada, eliminas una de las mayores barreras de entrada: la inconsistencia visual.
+
+<Callout type="success" title="Consejo final">
+La consistencia es clave. Una vez que encuentres un ID de mira y un tamaño que te funcionen, mantente firme con ellos. La memoria muscular se construye sobre un campo visual consistente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes sobre la mira personalizada en Knife Duels">
+
+<FAQ items={[
+  {
+    question: "¿Dónde puedo encontrar los mejores IDs para una mira personalizada en Knife Duels?",
+    answer: "El mejor lugar es el Mercado de Creadores de Roblox bajo la categoría 'Imágenes' o 'Calcomanías'. Busca palabras clave como 'crosshair' (mira), 'aim' (apuntar) o 'dot' (punto) para encontrar recursos públicos creados por la comunidad."
+  },
+  {
+    question: "¿Una mira personalizada me da alguna ventaja mecánica?",
+    answer: "No cambia el código del juego ni el tamaño de las cajas de impacto (hitboxes), pero proporciona una ventaja psicológica y visual significativa al facilitar el seguimiento de los objetivos y el cálculo preciso del tiempo de tus ataques."
+  },
+  {
+    question: "¿Puedo usar software de mira externo en Knife Duels?",
+    answer: "Aunque algunos jugadores utilizan superposiciones de mira de terceros, generalmente es más seguro usar el ajuste de 'Custom Crosshair ID' dentro del juego para evitar posibles problemas con el sistema antitrampas o los términos de servicio de Roblox."
+  },
+  {
+    question: "¿Qué color es mejor para una mira personalizada en Knife Duels?",
+    answer: "Se recomienda encarecidamente el verde neón (lima) o el cian. Estos colores ofrecen el mejor contraste contra las texturas oscuras y metálicas que se encuentran en la mayoría de las arenas de duelo, lo que garantiza que nunca pierdas de vista tu retícula."
+  }
+]} />
+
+</Section>

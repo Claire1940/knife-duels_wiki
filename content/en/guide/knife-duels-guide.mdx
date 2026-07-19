@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Knife Duels Guide: 2026 Combat Mechanics & Pro Strategies",
+  description: "Master the arena with our Knife Duels guide. Learn advanced combat techniques, weapon rankings, and winning strategies for 2026 rankings.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Knife+Duels+Mastery",
+  date: "2026-07-20",
+  author: "knife duels Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Knife Duels Guide**: Focus on mastering the "hit-and-run" rhythmic movement to dominate the arena.
+- **Core Mechanic**: Distance management is the single most important factor in winning high-tier duels.
+- **Best Strategy**: Bait your opponent's swing by stepping into their range and immediately dashing backward.
+- **Critical Tip**: Always watch the opponent's arm animation rather than their feet to predict strikes.
+- **Top Choice**: The Balanced Dagger remains the most reliable weapon for 2026 competitive play.
+</Callout>
+
+<Section icon={Map} title="Mastering the Knife Duels Fundamentals">
+
+To excel in the competitive arena, understanding the core flow of combat is essential. In the current 2026 meta, Knife Duels has evolved from simple button-mashing into a sophisticated game of spacing and timing. Whether you are fighting in the Iron ranks or pushing for Grandmaster, the fundamental principles of engagement remain the same: strike when the opponent is recovering, and move when they are attacking.
+
+**Video Highlights:**
+- Observing movement patterns in lower-tier "Iron" duels.
+- The importance of "standing ground" vs. aggressive rushing.
+- Identifying the moment of vulnerability after a missed swing.
+- Utilizing the environment to corner opponents.
+
+<YouTubeEmbed videoId="bdGEEz9DgiI" title="knife duels in iron be like" />
+
+| Skill Level | Primary Focus | Movement Style | Common Mistake |
+| :--- | :--- | :--- | :--- |
+| **Iron** | Basic Hitting | Rushing forward | Over-swinging |
+| **Bronze** | Timing Swings | Side-strafing | Poor distance control |
+| **Silver** | Parrying | Circular movement | Predictable patterns |
+| **Gold+** | Mind Games | Feinting/Baiting | Hesitation |
+
+<Callout type="tip" title="Pro Tip">
+In lower ranks like Iron, most players will rush you directly. Use this to your advantage by standing still for a split second to bait a lunge, then sidestep and counter-attack.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Weapon Classes and 2026 Stat Analysis">
+
+Choosing the right blade in Knife Duels is not just about aesthetics; it is about matching the weapon's frame data to your personal playstyle. For 2026, the developers have balanced the weapons into three distinct categories. Understanding the trade-offs between reach, speed, and recovery time is the difference between a clean kill and a frustrating defeat.
+
+<CardGrid cols={3}>
+  <Card title="Light Blades">
+    - **High Attack Speed**
+    - Shortest Range
+    - Minimal recovery frames
+    - Best for aggressive "face-hugging" tactics.
+  </Card>
+  <Card title="Standard Daggers">
+    - **Balanced Stats**
+    - Medium Range
+    - Moderate damage output
+    - The most versatile choice for any duel scenario.
+  </Card>
+  <Card title="Heavy Shivs">
+    - **High Impact**
+    - Longest Reach
+    - Slowest recovery time
+    - Requires precise timing and "punish" playstyles.
+  </Card>
+</CardGrid>
+
+| Weapon Name | Damage | Attack Speed | Reach | Recovery |
+| :--- | :--- | :--- | :--- | :--- |
+| **Rust Bucket** | 15 | Fast | Short | 0.2s |
+| **Steel Dirk** | 25 | Medium | Medium | 0.4s |
+| **Combat Tanto** | 20 | Very Fast | Short | 0.15s |
+| **Executioner** | 45 | Slow | Long | 0.8s |
+| **Shadow Blade** | 30 | Medium | Medium | 0.35s |
+
+<Callout type="warning" title="Warning">
+Heavy weapons like the Executioner leave you extremely vulnerable if you miss. Never swing first when using a slow weapon unless you are certain of the hit.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Guide to the Perfect Counter">
+
+Executing a successful counter-attack is the hallmark of a skilled player. This **knife duels guide** recommends practicing the "Flash-Step Counter" to climb the ranks quickly. This technique relies on the server's hit-registration logic and requires precise execution of movement and camera control.
+
+<Steps>
+  <Step num="1" title="The Bait">
+    Approach the opponent's "danger zone" (just outside their reach) and tap your forward key. This usually triggers their instinct to swing.
+  </Step>
+  <Step num="2" title="The Retreat">
+    The moment you see their arm move, tap your backward key or dash button. You want their knife to miss by the smallest possible margin.
+  </Step>
+  <Step num="3" title="The Pivot">
+    As their swing animation enters the "recovery" phase, immediately lunge forward. Aim for the torso or head to maximize hit probability.
+  </Step>
+  <Step num="4" title="The Reset">
+    After landing the hit, do not stay in range. Immediately strafe to the side to avoid a "revenge swing" and reset your stamina.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Success Mechanic">
+Mastering Step 2 is the hardest part. If you retreat too early, the opponent won't swing. If you retreat too late, you take damage. Practice in the training lobby to find the "sweet spot."
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Defensive Maneuvers and Survival">
+
+Offense wins rounds, but defense wins tournaments. In Knife Duels, survival is often about "active defense"—using your movement to make yourself an impossible target. Static blocking is rarely effective against high-tier players who know how to bypass guards. Instead, focus on these three defensive archetypes.
+
+| Defense Type | Technique | Best Against | Risk Level |
+| :--- | :--- | :--- | :--- |
+| **The Ghost** | Constant erratic jumping/crouching | Heavy weapons | High |
+| **The Wall** | Perfect parry timing | Light spammers | Medium |
+| **The Dancer** | Large circular strafing | Standard daggers | Low |
+
+<Callout type="info" title="Note">
+Server latency (Ping) heavily affects parry timing. If your ping is over 80ms, rely more on "The Dancer" movement style rather than trying to time perfect parries.
+</Callout>
+
+### Advanced Positioning Tactics
+1. **Corner Trapping**: Force your opponent toward the edge of the arena to limit their strafing options.
+2. **High Ground Advantage**: If the arena has elevation, attacking from above increases your reach slightly due to the game's hitbox calculation.
+3. **Stamina Management**: Never let your stamina bar drop below 20%. A player with no stamina is a player who cannot dash out of danger.
+
+</Section>
+
+<Section icon={Trophy} title="2026 Progression Checklist">
+
+To stay competitive in the 2026 season, players should follow a structured progression path. This ensures you are not only gaining ranks but also unlocking the necessary gear and perks that provide small but significant advantages in high-level play.
+
+<Checklist
+  id="pro-progression"
+  title="Daily & Weekly Combat Goals:"
+  items={[
+    "Win 5 duels without taking more than 50% damage",
+    "Master the parry timing for the 'Shadow Blade'",
+    "Reach Silver III rank in the competitive ladder",
+    "Unlock the 'Agile' perk from the skill tree",
+    "Complete 10 flawless rounds in the training arena"
+  ]}
+/>
+
+<Callout type="tip" title="Optimization">
+The 'Agile' perk is currently the meta-choice for 2026, as it reduces the stamina cost of back-dashes by 15%, allowing for more frequent baiting maneuvers.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+Our **knife duels guide** wouldn't be complete without addressing the most common questions from the community. These answers are based on the latest 2026 patch notes and high-level gameplay data.
+
+<FAQ items={[
+  {
+    question: "What is the best knife for beginners in Knife Duels?",
+    answer: "The 'Steel Dirk' is the best starting point. It has balanced stats that allow you to learn both offensive and defensive timing without the extreme penalties of heavy or light specialized weapons."
+  },
+  {
+    question: "How do I deal with 'lag switchers' or high-ping players?",
+    answer: "Against high-ping players, avoid tight-range combat. Increase your spacing and use 'The Dancer' strafing technique. Do not rely on parries, as the server may register the hit before your parry animation shows on their screen."
+  },
+  {
+    question: "Is the 'Executioner' heavy knife worth using in 2026?",
+    answer: "Only in specific matchups. It is great against players who play too defensively, as its high damage can break guards easily. However, against fast 'Light Blade' users, it is often too slow to be viable."
+  },
+  {
+    question: "How can I improve my ranking quickly?",
+    answer: "Focus on consistency over flashy plays. Winning 2-1 reliably is better than going for 3-0 highlights and risking unnecessary losses. Master one movement pattern and one weapon before diversifying."
+  }
+]} />
+
+<Callout type="success" title="Final Word">
+The arena is always changing. Stay observant, watch your replays, and remember that every loss is just a lesson in spacing. See you in the Grandmaster ranks!
+</Callout>
+
+</Section>

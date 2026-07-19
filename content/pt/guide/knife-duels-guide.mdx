@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Knife Duels: Mecânicas de Combate e Estratégias Pro de 2026",
+  description: "Domine a arena com o nosso guia de Knife Duels. Aprenda técnicas avançadas de combate, rankings de armas e estratégias de vitória para as classificações de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Knife+Duels+Mastery",
+  date: "2026-07-20",
+  author: "Equipe Wiki do Knife Duels"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia de Knife Duels**: Foque em dominar o movimento rítmico de "bater e correr" (hit-and-run) para dominar a arena.
+- **Mecânica Central**: O gerenciamento de distância é o fator individual mais importante para vencer duelos de alto nível.
+- **Melhor Estratégia**: Provoque o golpe do seu oponente entrando no alcance dele e recuando imediatamente com um dash.
+- **Dica Crítica**: Sempre observe a animação do braço do oponente em vez dos pés para prever os ataques.
+- **Escolha Principal**: A Adaga Equilibrada continua sendo a arma mais confiável para o jogo competitivo em 2026.
+</Callout>
+
+<Section icon={Map} title="Dominando os Fundamentos de Knife Duels">
+
+Para se destacar na arena competitiva, compreender o fluxo principal do combate é essencial. No meta atual de 2026, Knife Duels evoluiu de um simples esmagamento de botões para um jogo sofisticado de espaçamento e tempo. Esteja você lutando nos ranques de Ferro ou buscando o Grão-Mestre, os princípios fundamentais de combate permanecem os mesmos: ataque quando o oponente estiver se recuperando e mova-se quando ele estiver atacando.
+
+**Destaques do Vídeo:**
+- Observando padrões de movimento em duelos de nível inferior "Ferro".
+- A importância de "manter a posição" vs. avanço agressivo.
+- Identificando o momento de vulnerabilidade após um golpe perdido.
+- Utilizando o ambiente para encurralar os oponentes.
+
+<YouTubeEmbed videoId="bdGEEz9DgiI" title="como é o knife duels no ferro" />
+
+| Nível de Habilidade | Foco Principal | Estilo de Movimento | Erro Comum |
+| :--- | :--- | :--- | :--- |
+| **Ferro** | Golpes Básicos | Avançar correndo | Golpear em excesso |
+| **Bronze** | Tempo dos Golpes | Deslocamento lateral | Controle de distância ruim |
+| **Prata** | Aparar (Parry) | Movimento circular | Padrões previsíveis |
+| **Ouro+** | Jogos Mentais | Fintas/Provocações | Hesitação |
+
+<Callout type="tip" title="Dica Pro">
+Em ranques mais baixos como Ferro, a maioria dos jogadores avançará diretamente contra você. Use isso a seu favor ficando parado por uma fração de segundo para provocar um bote, depois dê um passo para o lado e contra-ataque.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Classes de Armas e Análise de Atributos de 2026">
+
+Escolher a lâmina certa em Knife Duels não é apenas uma questão de estética; trata-se de alinhar os dados de quadros (frame data) da arma ao seu estilo de jogo pessoal. Para 2026, os desenvolvedores equilibraram as armas em três categorias distintas. Compreender as compensações entre alcance, velocidade e tempo de recuperação é a diferença entre uma eliminação limpa e uma derrota frustrante.
+
+<CardGrid cols={3}>
+  <Card title="Lâminas Leves">
+    - **Alta Velocidade de Ataque**
+    - Menor Alcance
+    - Quadros de recuperação mínimos
+    - Melhor para táticas agressivas de combate muito próximo.
+  </Card>
+  <Card title="Adagas Padrão">
+    - **Atributos Equilibrados**
+    - Alcance Médio
+    - Dano moderado
+    - A escolha mais versátil para qualquer cenário de duelo.
+  </Card>
+  <Card title="Estiletes Pesados">
+    - **Alto Impacto**
+    - Maior Alcance
+    - Tempo de recuperação mais lento
+    - Requer tempo preciso e estilos de jogo baseados em punição.
+  </Card>
+</CardGrid>
+
+| Nome da Arma | Dano | Velocidade de Ataque | Alcance | Recuperação |
+| :--- | :--- | :--- | :--- | :--- |
+| **Rust Bucket** | 15 | Rápida | Curto | 0.2s |
+| **Steel Dirk** | 25 | Média | Médio | 0.4s |
+| **Combat Tanto** | 20 | Muito Rápida | Curto | 0.15s |
+| **Executioner** | 45 | Lenta | Longo | 0.8s |
+| **Shadow Blade** | 30 | Média | Médio | 0.35s |
+
+<Callout type="warning" title="Aviso">
+Armas pesadas como a Executioner deixam você extremamente vulnerável se errar. Nunca golpeie primeiro ao usar uma arma lenta, a menos que tenha certeza do acerto.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia Passo a Passo para o Contra-Ataque Perfeito">
+
+Executar um contra-ataque bem-sucedido é a marca registrada de um jogador habilidoso. Este **guia de Knife Duels** recomenda praticar o "Contra-Ataque de Passo Flash" (Flash-Step Counter) para subir nos ranques rapidamente. Esta técnica depende da lógica de registro de golpes do servidor e exige execução precisa de movimento e controle de câmera.
+
+<Steps>
+  <Step num="1" title="A Provocação">
+    Aproxime-se da "zona de perigo" do oponente (logo fora do alcance dele) e toque na sua tecla de avançar. Isso geralmente aciona o instinto dele de golpear.
+  </Step>
+  <Step num="2" title="O Recuo">
+    No momento em que vir o braço dele se mover, toque na tecla de recuar ou no botão de dash. Você quer que a faca dele erre pela menor margem possível.
+  </Step>
+  <Step num="3" title="O Pivô">
+    Assim que a animação do golpe dele entrar na fase de "recuperação", avance imediatamente. Mire no torso ou na cabeça para maximizar a probabilidade de acerto.
+  </Step>
+  <Step num="4" title="O Reinício">
+    Depois de acertar o golpe, não permaneça ao alcance. Desloque-se imediatamente para o lado para evitar um "golpe de vingança" e recuperar seu fôlego (stamina).
+  </Step>
+</Steps>
+
+<Callout type="success" title="Mecânica de Sucesso">
+Dominar o Passo 2 é a parte mais difícil. Se você recuar muito cedo, o oponente não golpeará. Se recuar muito tarde, você sofrerá dano. Pratique no lobby de treinamento para encontrar o ponto ideal (sweet spot).
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Manobras Defensivas e Sobrevivência">
+
+O ataque vence rodadas, mas a defesa vence torneios. Em Knife Duels, sobrevivência geralmente se resume à "defesa ativa" — usar seu movimento para se tornar um alvo impossível. O bloqueio estático raramente é eficaz contra jogadores de alto nível que sabem como contornar guardas. Em vez disso, concentre-se nestes três arquétipos defensivos.
+
+| Tipo de Defesa | Técnica | Melhor Contra | Nível de Risco |
+| :--- | :--- | :--- | :--- |
+| **O Fantasma** | Saltos/agachamentos erráticos constantes | Armas pesadas | Alto |
+| **A Muralha** | Tempo de aparo (parry) perfeito | Spammers de armas leves | Médio |
+| **O Dançarino** | Deslocamento circular amplo | Adagas padrão | Baixo |
+
+<Callout type="info" title="Nota">
+A latência do servidor (Ping) afeta fortemente o tempo de aparo. Se o seu ping estiver acima de 80ms, confie mais no estilo de movimento "O Dançarino" em vez de tentar cronometrar aparos perfeitos.
+</Callout>
+
+### Táticas Avançadas de Posicionamento
+1. **Encurralamento**: Force seu oponente em direção à borda da arena para limitar suas opções de deslocamento lateral.
+2. **Vantagem de Terreno Elevado**: Se a arena tiver elevação, atacar de cima aumenta ligeiramente o seu alcance devido ao cálculo de hitbox do jogo.
+3. **Gerenciamento de Estamina**: Nunca deixe sua barra de estamina cair abaixo de 20%. Um jogador sem estamina é um jogador que não pode usar o dash para fugir do perigo.
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação de Progressão de 2026">
+
+Para se manter competitivo na temporada de 2026, os jogadores devem seguir um caminho de progressão estruturado. Isso garante que você não apenas ganhe ranques, mas também desbloqueie os equipamentos e vantagens (perks) necessários que oferecem pequenas, mas significativas vantagens no jogo de alto nível.
+
+<Checklist
+  id="pro-progression"
+  title="Objetivos de Combate Diários e Semanais:"
+  items={[
+    "Vencer 5 duelos sem sofrer mais de 50% de dano",
+    "Dominar o tempo de aparo da 'Shadow Blade'",
+    "Alcançar o ranque Prata III na tabela competitiva",
+    "Desbloquear a vantagem 'Ágil' (Agile) na árvore de habilidades",
+    "Completar 10 rodadas perfeitas na arena de treinamento"
+  ]}
+/>
+
+<Callout type="tip" title="Otimização">
+A vantagem 'Ágil' é atualmente a escolha do meta para 2026, pois reduz o custo de estamina dos dashes para trás em 15%, permitindo manobras de provocação mais frequentes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+Nosso **guia de Knife Duels** não estaria completo sem responder às perguntas mais comuns da comunidade. Estas respostas são baseadas nas notas de atualização mais recentes de 2026 e em dados de jogabilidade de alto nível.
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor faca para iniciantes em Knife Duels?",
+    answer: "A 'Steel Dirk' é o melhor ponto de partida. Ela possui atributos equilibrados que permitem aprender o tempo de ataque e defesa sem as penalidades extremas das armas pesadas ou leves especializadas."
+  },
+  {
+    question: "Como lidar com 'lag switchers' ou jogadores com ping alto?",
+    answer: "Contra jogadores com ping alto, evite combates de curto alcance. Aumente seu espaçamento e use a técnica de deslocamento 'O Dançarino'. Não confie em aparos, pois o servidor pode registrar o golpe antes que a animação de aparo apareça na tela deles."
+  },
+  {
+    question: "Vale a pena usar a faca pesada 'Executioner' em 2026?",
+    answer: "Apenas em confrontos específicos. Ela é ótima contra jogadores que jogam na defensiva, pois seu alto dano pode quebrar guardas facilmente. No entanto, contra usuários rápidos de 'Lâminas Leves', ela costuma ser lenta demais para ser viável."
+  },
+  {
+    question: "Como posso melhorar meu ranque rapidamente?",
+    answer: "Foque na consistência em vez de jogadas chamativas. Vencer por 2-1 de forma confiável é melhor do que buscar destaques de 3-0 e arriscar derrotas desnecessárias. Domine um padrão de movimento e uma arma antes de diversificar."
+  }
+]} />
+
+<Callout type="success" title="Palavra Final">
+A arena está sempre mudando. Fique atento, assista aos seus replays e lembre-se de que cada derrota é apenas uma lição de espaçamento. Nos vemos nos ranques de Grão-Mestre!
+</Callout>
+
+</Section>
